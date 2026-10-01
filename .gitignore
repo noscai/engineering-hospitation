@@ -1,5 +1,27 @@
+# Lokale Zugangsdaten und lokale Modellkonfiguration
 .env
+.env.*
+
+# Python-Umgebungen und generierte Caches
 .venv/
 __pycache__/
-*.pyc
+*.py[cod]
+.pytest_cache/
+.uv-cache/
+.pycache-run/
+.ruff_cache/
+.mypy_cache/
+.coverage
+.coverage.*
+htmlcov/
+
+# React / Vite: installierte Pakete und Build-Ausgaben
+node_modules/
+/loesung/frontend/dist/
+*.tsbuildinfo
+
+# Betriebssystem
 .DS_Store
+
+# Code, READMEs, uv.lock und Frontend-Lockfiles werden versioniert.
+# LDT-, PDF- und Gold-JSON-Datensätze sowie Eval-Ergebnisse ebenfalls.

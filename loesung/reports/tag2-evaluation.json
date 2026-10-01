@@ -1,0 +1,4921 @@
+{
+  "modelle": {
+    "llm_structured_text": "anthropic/claude-sonnet-4",
+    "llm_structured_alt_model": "google/gemini-2.5-flash",
+    "scan_vision_llm": "anthropic/claude-sonnet-4"
+  },
+  "varianten": {
+    "regel_text_pdf": {
+      "befunde": 18,
+      "gesamt": {
+        "felder": {
+          "analyt": {
+            "tp": 117,
+            "fp": 27,
+            "fn": 27,
+            "precision": 0.8125,
+            "recall": 0.8125
+          },
+          "wert": {
+            "tp": 117,
+            "fp": 27,
+            "fn": 27,
+            "precision": 0.8125,
+            "recall": 0.8125
+          },
+          "einheit": {
+            "tp": 117,
+            "fp": 27,
+            "fn": 27,
+            "precision": 0.8125,
+            "recall": 0.8125
+          },
+          "referenz": {
+            "tp": 117,
+            "fp": 27,
+            "fn": 27,
+            "precision": 0.8125,
+            "recall": 0.8125
+          },
+          "flag": {
+            "tp": 117,
+            "fp": 27,
+            "fn": 27,
+            "precision": 0.8125,
+            "recall": 0.8125
+          },
+          "seite": {
+            "tp": 117,
+            "fp": 27,
+            "fn": 27,
+            "precision": 0.8125,
+            "recall": 0.8125
+          },
+          "wert_einheit_exact": {
+            "tp": 117,
+            "fp": 27,
+            "fn": 27,
+            "precision": 0.8125,
+            "recall": 0.8125
+          }
+        },
+        "normalisierung": {
+          "loinc": {
+            "tp": 117,
+            "fp": 27,
+            "fn": 27,
+            "precision": 0.8125,
+            "recall": 0.8125
+          },
+          "ziel_einheit": {
+            "tp": 117,
+            "fp": 27,
+            "fn": 27,
+            "precision": 0.8125,
+            "recall": 0.8125
+          }
+        },
+        "fehlerklassen": {
+          "wert_fehlt": 27,
+          "wert_zusaetzlich": 27
+        }
+      },
+      "pro_befund": [
+        {
+          "id": "SYN-001",
+          "layout": "tabelle",
+          "gold": 8,
+          "extrahiert": 8,
+          "felder": {
+            "analyt": {
+              "tp": 8,
+              "fp": 0,
+              "fn": 0,
+              "precision": 1.0,
+              "recall": 1.0
+            },
+            "wert": {
+              "tp": 8,
+              "fp": 0,
+              "fn": 0,
+              "precision": 1.0,
+              "recall": 1.0
+            },
+            "einheit": {
+              "tp": 8,
+              "fp": 0,
+              "fn": 0,
+              "precision": 1.0,
+              "recall": 1.0
+            },
+            "referenz": {
+              "tp": 8,
+              "fp": 0,
+              "fn": 0,
+              "precision": 1.0,
+              "recall": 1.0
+            },
+            "flag": {
+              "tp": 8,
+              "fp": 0,
+              "fn": 0,
+              "precision": 1.0,
+              "recall": 1.0
+            },
+            "seite": {
+              "tp": 8,
+              "fp": 0,
+              "fn": 0,
+              "precision": 1.0,
+              "recall": 1.0
+            },
+            "wert_einheit_exact": {
+              "tp": 8,
+              "fp": 0,
+              "fn": 0,
+              "precision": 1.0,
+              "recall": 1.0
+            }
+          },
+          "normalisierung": {
+            "loinc": {
+              "tp": 8,
+              "fp": 0,
+              "fn": 0,
+              "precision": 1.0,
+              "recall": 1.0
+            },
+            "ziel_einheit": {
+              "tp": 8,
+              "fp": 0,
+              "fn": 0,
+              "precision": 1.0,
+              "recall": 1.0
+            }
+          },
+          "fehlerklassen": {}
+        },
+        {
+          "id": "SYN-002",
+          "layout": "fliesstext",
+          "gold": 8,
+          "extrahiert": 8,
+          "felder": {
+            "analyt": {
+              "tp": 6,
+              "fp": 2,
+              "fn": 2,
+              "precision": 0.75,
+              "recall": 0.75
+            },
+            "wert": {
+              "tp": 6,
+              "fp": 2,
+              "fn": 2,
+              "precision": 0.75,
+              "recall": 0.75
+            },
+            "einheit": {
+              "tp": 6,
+              "fp": 2,
+              "fn": 2,
+              "precision": 0.75,
+              "recall": 0.75
+            },
+            "referenz": {
+              "tp": 6,
+              "fp": 2,
+              "fn": 2,
+              "precision": 0.75,
+              "recall": 0.75
+            },
+            "flag": {
+              "tp": 6,
+              "fp": 2,
+              "fn": 2,
+              "precision": 0.75,
+              "recall": 0.75
+            },
+            "seite": {
+              "tp": 6,
+              "fp": 2,
+              "fn": 2,
+              "precision": 0.75,
+              "recall": 0.75
+            },
+            "wert_einheit_exact": {
+              "tp": 6,
+              "fp": 2,
+              "fn": 2,
+              "precision": 0.75,
+              "recall": 0.75
+            }
+          },
+          "normalisierung": {
+            "loinc": {
+              "tp": 6,
+              "fp": 2,
+              "fn": 2,
+              "precision": 0.75,
+              "recall": 0.75
+            },
+            "ziel_einheit": {
+              "tp": 6,
+              "fp": 2,
+              "fn": 2,
+              "precision": 0.75,
+              "recall": 0.75
+            }
+          },
+          "fehlerklassen": {
+            "wert_fehlt": 2,
+            "wert_zusaetzlich": 2
+          }
+        },
+        {
+          "id": "SYN-003",
+          "layout": "zweispaltig",
+          "gold": 8,
+          "extrahiert": 8,
+          "felder": {
+            "analyt": {
+              "tp": 6,
+              "fp": 2,
+              "fn": 2,
+              "precision": 0.75,
+              "recall": 0.75
+            },
+            "wert": {
+              "tp": 6,
+              "fp": 2,
+              "fn": 2,
+              "precision": 0.75,
+              "recall": 0.75
+            },
+            "einheit": {
+              "tp": 6,
+              "fp": 2,
+              "fn": 2,
+              "precision": 0.75,
+              "recall": 0.75
+            },
+            "referenz": {
+              "tp": 6,
+              "fp": 2,
+              "fn": 2,
+              "precision": 0.75,
+              "recall": 0.75
+            },
+            "flag": {
+              "tp": 6,
+              "fp": 2,
+              "fn": 2,
+              "precision": 0.75,
+              "recall": 0.75
+            },
+            "seite": {
+              "tp": 6,
+              "fp": 2,
+              "fn": 2,
+              "precision": 0.75,
+              "recall": 0.75
+            },
+            "wert_einheit_exact": {
+              "tp": 6,
+              "fp": 2,
+              "fn": 2,
+              "precision": 0.75,
+              "recall": 0.75
+            }
+          },
+          "normalisierung": {
+            "loinc": {
+              "tp": 6,
+              "fp": 2,
+              "fn": 2,
+              "precision": 0.75,
+              "recall": 0.75
+            },
+            "ziel_einheit": {
+              "tp": 6,
+              "fp": 2,
+              "fn": 2,
+              "precision": 0.75,
+              "recall": 0.75
+            }
+          },
+          "fehlerklassen": {
+            "wert_fehlt": 2,
+            "wert_zusaetzlich": 2
+          }
+        },
+        {
+          "id": "SYN-004",
+          "layout": "tabelle",
+          "gold": 8,
+          "extrahiert": 8,
+          "felder": {
+            "analyt": {
+              "tp": 8,
+              "fp": 0,
+              "fn": 0,
+              "precision": 1.0,
+              "recall": 1.0
+            },
+            "wert": {
+              "tp": 8,
+              "fp": 0,
+              "fn": 0,
+              "precision": 1.0,
+              "recall": 1.0
+            },
+            "einheit": {
+              "tp": 8,
+              "fp": 0,
+              "fn": 0,
+              "precision": 1.0,
+              "recall": 1.0
+            },
+            "referenz": {
+              "tp": 8,
+              "fp": 0,
+              "fn": 0,
+              "precision": 1.0,
+              "recall": 1.0
+            },
+            "flag": {
+              "tp": 8,
+              "fp": 0,
+              "fn": 0,
+              "precision": 1.0,
+              "recall": 1.0
+            },
+            "seite": {
+              "tp": 8,
+              "fp": 0,
+              "fn": 0,
+              "precision": 1.0,
+              "recall": 1.0
+            },
+            "wert_einheit_exact": {
+              "tp": 8,
+              "fp": 0,
+              "fn": 0,
+              "precision": 1.0,
+              "recall": 1.0
+            }
+          },
+          "normalisierung": {
+            "loinc": {
+              "tp": 8,
+              "fp": 0,
+              "fn": 0,
+              "precision": 1.0,
+              "recall": 1.0
+            },
+            "ziel_einheit": {
+              "tp": 8,
+              "fp": 0,
+              "fn": 0,
+              "precision": 1.0,
+              "recall": 1.0
+            }
+          },
+          "fehlerklassen": {}
+        },
+        {
+          "id": "SYN-005",
+          "layout": "fliesstext",
+          "gold": 8,
+          "extrahiert": 8,
+          "felder": {
+            "analyt": {
+              "tp": 6,
+              "fp": 2,
+              "fn": 2,
+              "precision": 0.75,
+              "recall": 0.75
+            },
+            "wert": {
+              "tp": 6,
+              "fp": 2,
+              "fn": 2,
+              "precision": 0.75,
+              "recall": 0.75
+            },
+            "einheit": {
+              "tp": 6,
+              "fp": 2,
+              "fn": 2,
+              "precision": 0.75,
+              "recall": 0.75
+            },
+            "referenz": {
+              "tp": 6,
+              "fp": 2,
+              "fn": 2,
+              "precision": 0.75,
+              "recall": 0.75
+            },
+            "flag": {
+              "tp": 6,
+              "fp": 2,
+              "fn": 2,
+              "precision": 0.75,
+              "recall": 0.75
+            },
+            "seite": {
+              "tp": 6,
+              "fp": 2,
+              "fn": 2,
+              "precision": 0.75,
+              "recall": 0.75
+            },
+            "wert_einheit_exact": {
+              "tp": 6,
+              "fp": 2,
+              "fn": 2,
+              "precision": 0.75,
+              "recall": 0.75
+            }
+          },
+          "normalisierung": {
+            "loinc": {
+              "tp": 6,
+              "fp": 2,
+              "fn": 2,
+              "precision": 0.75,
+              "recall": 0.75
+            },
+            "ziel_einheit": {
+              "tp": 6,
+              "fp": 2,
+              "fn": 2,
+              "precision": 0.75,
+              "recall": 0.75
+            }
+          },
+          "fehlerklassen": {
+            "wert_fehlt": 2,
+            "wert_zusaetzlich": 2
+          }
+        },
+        {
+          "id": "SYN-006",
+          "layout": "zweispaltig",
+          "gold": 8,
+          "extrahiert": 8,
+          "felder": {
+            "analyt": {
+              "tp": 5,
+              "fp": 3,
+              "fn": 3,
+              "precision": 0.625,
+              "recall": 0.625
+            },
+            "wert": {
+              "tp": 5,
+              "fp": 3,
+              "fn": 3,
+              "precision": 0.625,
+              "recall": 0.625
+            },
+            "einheit": {
+              "tp": 5,
+              "fp": 3,
+              "fn": 3,
+              "precision": 0.625,
+              "recall": 0.625
+            },
+            "referenz": {
+              "tp": 5,
+              "fp": 3,
+              "fn": 3,
+              "precision": 0.625,
+              "recall": 0.625
+            },
+            "flag": {
+              "tp": 5,
+              "fp": 3,
+              "fn": 3,
+              "precision": 0.625,
+              "recall": 0.625
+            },
+            "seite": {
+              "tp": 5,
+              "fp": 3,
+              "fn": 3,
+              "precision": 0.625,
+              "recall": 0.625
+            },
+            "wert_einheit_exact": {
+              "tp": 5,
+              "fp": 3,
+              "fn": 3,
+              "precision": 0.625,
+              "recall": 0.625
+            }
+          },
+          "normalisierung": {
+            "loinc": {
+              "tp": 5,
+              "fp": 3,
+              "fn": 3,
+              "precision": 0.625,
+              "recall": 0.625
+            },
+            "ziel_einheit": {
+              "tp": 5,
+              "fp": 3,
+              "fn": 3,
+              "precision": 0.625,
+              "recall": 0.625
+            }
+          },
+          "fehlerklassen": {
+            "wert_fehlt": 3,
+            "wert_zusaetzlich": 3
+          }
+        },
+        {
+          "id": "SYN-007",
+          "layout": "tabelle",
+          "gold": 8,
+          "extrahiert": 8,
+          "felder": {
+            "analyt": {
+              "tp": 8,
+              "fp": 0,
+              "fn": 0,
+              "precision": 1.0,
+              "recall": 1.0
+            },
+            "wert": {
+              "tp": 8,
+              "fp": 0,
+              "fn": 0,
+              "precision": 1.0,
+              "recall": 1.0
+            },
+            "einheit": {
+              "tp": 8,
+              "fp": 0,
+              "fn": 0,
+              "precision": 1.0,
+              "recall": 1.0
+            },
+            "referenz": {
+              "tp": 8,
+              "fp": 0,
+              "fn": 0,
+              "precision": 1.0,
+              "recall": 1.0
+            },
+            "flag": {
+              "tp": 8,
+              "fp": 0,
+              "fn": 0,
+              "precision": 1.0,
+              "recall": 1.0
+            },
+            "seite": {
+              "tp": 8,
+              "fp": 0,
+              "fn": 0,
+              "precision": 1.0,
+              "recall": 1.0
+            },
+            "wert_einheit_exact": {
+              "tp": 8,
+              "fp": 0,
+              "fn": 0,
+              "precision": 1.0,
+              "recall": 1.0
+            }
+          },
+          "normalisierung": {
+            "loinc": {
+              "tp": 8,
+              "fp": 0,
+              "fn": 0,
+              "precision": 1.0,
+              "recall": 1.0
+            },
+            "ziel_einheit": {
+              "tp": 8,
+              "fp": 0,
+              "fn": 0,
+              "precision": 1.0,
+              "recall": 1.0
+            }
+          },
+          "fehlerklassen": {}
+        },
+        {
+          "id": "SYN-008",
+          "layout": "fliesstext",
+          "gold": 8,
+          "extrahiert": 8,
+          "felder": {
+            "analyt": {
+              "tp": 6,
+              "fp": 2,
+              "fn": 2,
+              "precision": 0.75,
+              "recall": 0.75
+            },
+            "wert": {
+              "tp": 6,
+              "fp": 2,
+              "fn": 2,
+              "precision": 0.75,
+              "recall": 0.75
+            },
+            "einheit": {
+              "tp": 6,
+              "fp": 2,
+              "fn": 2,
+              "precision": 0.75,
+              "recall": 0.75
+            },
+            "referenz": {
+              "tp": 6,
+              "fp": 2,
+              "fn": 2,
+              "precision": 0.75,
+              "recall": 0.75
+            },
+            "flag": {
+              "tp": 6,
+              "fp": 2,
+              "fn": 2,
+              "precision": 0.75,
+              "recall": 0.75
+            },
+            "seite": {
+              "tp": 6,
+              "fp": 2,
+              "fn": 2,
+              "precision": 0.75,
+              "recall": 0.75
+            },
+            "wert_einheit_exact": {
+              "tp": 6,
+              "fp": 2,
+              "fn": 2,
+              "precision": 0.75,
+              "recall": 0.75
+            }
+          },
+          "normalisierung": {
+            "loinc": {
+              "tp": 6,
+              "fp": 2,
+              "fn": 2,
+              "precision": 0.75,
+              "recall": 0.75
+            },
+            "ziel_einheit": {
+              "tp": 6,
+              "fp": 2,
+              "fn": 2,
+              "precision": 0.75,
+              "recall": 0.75
+            }
+          },
+          "fehlerklassen": {
+            "wert_fehlt": 2,
+            "wert_zusaetzlich": 2
+          }
+        },
+        {
+          "id": "SYN-009",
+          "layout": "zweispaltig",
+          "gold": 8,
+          "extrahiert": 8,
+          "felder": {
+            "analyt": {
+              "tp": 6,
+              "fp": 2,
+              "fn": 2,
+              "precision": 0.75,
+              "recall": 0.75
+            },
+            "wert": {
+              "tp": 6,
+              "fp": 2,
+              "fn": 2,
+              "precision": 0.75,
+              "recall": 0.75
+            },
+            "einheit": {
+              "tp": 6,
+              "fp": 2,
+              "fn": 2,
+              "precision": 0.75,
+              "recall": 0.75
+            },
+            "referenz": {
+              "tp": 6,
+              "fp": 2,
+              "fn": 2,
+              "precision": 0.75,
+              "recall": 0.75
+            },
+            "flag": {
+              "tp": 6,
+              "fp": 2,
+              "fn": 2,
+              "precision": 0.75,
+              "recall": 0.75
+            },
+            "seite": {
+              "tp": 6,
+              "fp": 2,
+              "fn": 2,
+              "precision": 0.75,
+              "recall": 0.75
+            },
+            "wert_einheit_exact": {
+              "tp": 6,
+              "fp": 2,
+              "fn": 2,
+              "precision": 0.75,
+              "recall": 0.75
+            }
+          },
+          "normalisierung": {
+            "loinc": {
+              "tp": 6,
+              "fp": 2,
+              "fn": 2,
+              "precision": 0.75,
+              "recall": 0.75
+            },
+            "ziel_einheit": {
+              "tp": 6,
+              "fp": 2,
+              "fn": 2,
+              "precision": 0.75,
+              "recall": 0.75
+            }
+          },
+          "fehlerklassen": {
+            "wert_fehlt": 2,
+            "wert_zusaetzlich": 2
+          }
+        },
+        {
+          "id": "SYN-010",
+          "layout": "tabelle",
+          "gold": 8,
+          "extrahiert": 8,
+          "felder": {
+            "analyt": {
+              "tp": 8,
+              "fp": 0,
+              "fn": 0,
+              "precision": 1.0,
+              "recall": 1.0
+            },
+            "wert": {
+              "tp": 8,
+              "fp": 0,
+              "fn": 0,
+              "precision": 1.0,
+              "recall": 1.0
+            },
+            "einheit": {
+              "tp": 8,
+              "fp": 0,
+              "fn": 0,
+              "precision": 1.0,
+              "recall": 1.0
+            },
+            "referenz": {
+              "tp": 8,
+              "fp": 0,
+              "fn": 0,
+              "precision": 1.0,
+              "recall": 1.0
+            },
+            "flag": {
+              "tp": 8,
+              "fp": 0,
+              "fn": 0,
+              "precision": 1.0,
+              "recall": 1.0
+            },
+            "seite": {
+              "tp": 8,
+              "fp": 0,
+              "fn": 0,
+              "precision": 1.0,
+              "recall": 1.0
+            },
+            "wert_einheit_exact": {
+              "tp": 8,
+              "fp": 0,
+              "fn": 0,
+              "precision": 1.0,
+              "recall": 1.0
+            }
+          },
+          "normalisierung": {
+            "loinc": {
+              "tp": 8,
+              "fp": 0,
+              "fn": 0,
+              "precision": 1.0,
+              "recall": 1.0
+            },
+            "ziel_einheit": {
+              "tp": 8,
+              "fp": 0,
+              "fn": 0,
+              "precision": 1.0,
+              "recall": 1.0
+            }
+          },
+          "fehlerklassen": {}
+        },
+        {
+          "id": "SYN-011",
+          "layout": "fliesstext",
+          "gold": 8,
+          "extrahiert": 8,
+          "felder": {
+            "analyt": {
+              "tp": 6,
+              "fp": 2,
+              "fn": 2,
+              "precision": 0.75,
+              "recall": 0.75
+            },
+            "wert": {
+              "tp": 6,
+              "fp": 2,
+              "fn": 2,
+              "precision": 0.75,
+              "recall": 0.75
+            },
+            "einheit": {
+              "tp": 6,
+              "fp": 2,
+              "fn": 2,
+              "precision": 0.75,
+              "recall": 0.75
+            },
+            "referenz": {
+              "tp": 6,
+              "fp": 2,
+              "fn": 2,
+              "precision": 0.75,
+              "recall": 0.75
+            },
+            "flag": {
+              "tp": 6,
+              "fp": 2,
+              "fn": 2,
+              "precision": 0.75,
+              "recall": 0.75
+            },
+            "seite": {
+              "tp": 6,
+              "fp": 2,
+              "fn": 2,
+              "precision": 0.75,
+              "recall": 0.75
+            },
+            "wert_einheit_exact": {
+              "tp": 6,
+              "fp": 2,
+              "fn": 2,
+              "precision": 0.75,
+              "recall": 0.75
+            }
+          },
+          "normalisierung": {
+            "loinc": {
+              "tp": 6,
+              "fp": 2,
+              "fn": 2,
+              "precision": 0.75,
+              "recall": 0.75
+            },
+            "ziel_einheit": {
+              "tp": 6,
+              "fp": 2,
+              "fn": 2,
+              "precision": 0.75,
+              "recall": 0.75
+            }
+          },
+          "fehlerklassen": {
+            "wert_fehlt": 2,
+            "wert_zusaetzlich": 2
+          }
+        },
+        {
+          "id": "SYN-012",
+          "layout": "zweispaltig",
+          "gold": 8,
+          "extrahiert": 8,
+          "felder": {
+            "analyt": {
+              "tp": 5,
+              "fp": 3,
+              "fn": 3,
+              "precision": 0.625,
+              "recall": 0.625
+            },
+            "wert": {
+              "tp": 5,
+              "fp": 3,
+              "fn": 3,
+              "precision": 0.625,
+              "recall": 0.625
+            },
+            "einheit": {
+              "tp": 5,
+              "fp": 3,
+              "fn": 3,
+              "precision": 0.625,
+              "recall": 0.625
+            },
+            "referenz": {
+              "tp": 5,
+              "fp": 3,
+              "fn": 3,
+              "precision": 0.625,
+              "recall": 0.625
+            },
+            "flag": {
+              "tp": 5,
+              "fp": 3,
+              "fn": 3,
+              "precision": 0.625,
+              "recall": 0.625
+            },
+            "seite": {
+              "tp": 5,
+              "fp": 3,
+              "fn": 3,
+              "precision": 0.625,
+              "recall": 0.625
+            },
+            "wert_einheit_exact": {
+              "tp": 5,
+              "fp": 3,
+              "fn": 3,
+              "precision": 0.625,
+              "recall": 0.625
+            }
+          },
+          "normalisierung": {
+            "loinc": {
+              "tp": 5,
+              "fp": 3,
+              "fn": 3,
+              "precision": 0.625,
+              "recall": 0.625
+            },
+            "ziel_einheit": {
+              "tp": 5,
+              "fp": 3,
+              "fn": 3,
+              "precision": 0.625,
+              "recall": 0.625
+            }
+          },
+          "fehlerklassen": {
+            "wert_fehlt": 3,
+            "wert_zusaetzlich": 3
+          }
+        },
+        {
+          "id": "SYN-013",
+          "layout": "tabelle",
+          "gold": 8,
+          "extrahiert": 8,
+          "felder": {
+            "analyt": {
+              "tp": 8,
+              "fp": 0,
+              "fn": 0,
+              "precision": 1.0,
+              "recall": 1.0
+            },
+            "wert": {
+              "tp": 8,
+              "fp": 0,
+              "fn": 0,
+              "precision": 1.0,
+              "recall": 1.0
+            },
+            "einheit": {
+              "tp": 8,
+              "fp": 0,
+              "fn": 0,
+              "precision": 1.0,
+              "recall": 1.0
+            },
+            "referenz": {
+              "tp": 8,
+              "fp": 0,
+              "fn": 0,
+              "precision": 1.0,
+              "recall": 1.0
+            },
+            "flag": {
+              "tp": 8,
+              "fp": 0,
+              "fn": 0,
+              "precision": 1.0,
+              "recall": 1.0
+            },
+            "seite": {
+              "tp": 8,
+              "fp": 0,
+              "fn": 0,
+              "precision": 1.0,
+              "recall": 1.0
+            },
+            "wert_einheit_exact": {
+              "tp": 8,
+              "fp": 0,
+              "fn": 0,
+              "precision": 1.0,
+              "recall": 1.0
+            }
+          },
+          "normalisierung": {
+            "loinc": {
+              "tp": 8,
+              "fp": 0,
+              "fn": 0,
+              "precision": 1.0,
+              "recall": 1.0
+            },
+            "ziel_einheit": {
+              "tp": 8,
+              "fp": 0,
+              "fn": 0,
+              "precision": 1.0,
+              "recall": 1.0
+            }
+          },
+          "fehlerklassen": {}
+        },
+        {
+          "id": "SYN-014",
+          "layout": "fliesstext",
+          "gold": 8,
+          "extrahiert": 8,
+          "felder": {
+            "analyt": {
+              "tp": 6,
+              "fp": 2,
+              "fn": 2,
+              "precision": 0.75,
+              "recall": 0.75
+            },
+            "wert": {
+              "tp": 6,
+              "fp": 2,
+              "fn": 2,
+              "precision": 0.75,
+              "recall": 0.75
+            },
+            "einheit": {
+              "tp": 6,
+              "fp": 2,
+              "fn": 2,
+              "precision": 0.75,
+              "recall": 0.75
+            },
+            "referenz": {
+              "tp": 6,
+              "fp": 2,
+              "fn": 2,
+              "precision": 0.75,
+              "recall": 0.75
+            },
+            "flag": {
+              "tp": 6,
+              "fp": 2,
+              "fn": 2,
+              "precision": 0.75,
+              "recall": 0.75
+            },
+            "seite": {
+              "tp": 6,
+              "fp": 2,
+              "fn": 2,
+              "precision": 0.75,
+              "recall": 0.75
+            },
+            "wert_einheit_exact": {
+              "tp": 6,
+              "fp": 2,
+              "fn": 2,
+              "precision": 0.75,
+              "recall": 0.75
+            }
+          },
+          "normalisierung": {
+            "loinc": {
+              "tp": 6,
+              "fp": 2,
+              "fn": 2,
+              "precision": 0.75,
+              "recall": 0.75
+            },
+            "ziel_einheit": {
+              "tp": 6,
+              "fp": 2,
+              "fn": 2,
+              "precision": 0.75,
+              "recall": 0.75
+            }
+          },
+          "fehlerklassen": {
+            "wert_fehlt": 2,
+            "wert_zusaetzlich": 2
+          }
+        },
+        {
+          "id": "SYN-015",
+          "layout": "zweispaltig",
+          "gold": 8,
+          "extrahiert": 8,
+          "felder": {
+            "analyt": {
+              "tp": 6,
+              "fp": 2,
+              "fn": 2,
+              "precision": 0.75,
+              "recall": 0.75
+            },
+            "wert": {
+              "tp": 6,
+              "fp": 2,
+              "fn": 2,
+              "precision": 0.75,
+              "recall": 0.75
+            },
+            "einheit": {
+              "tp": 6,
+              "fp": 2,
+              "fn": 2,
+              "precision": 0.75,
+              "recall": 0.75
+            },
+            "referenz": {
+              "tp": 6,
+              "fp": 2,
+              "fn": 2,
+              "precision": 0.75,
+              "recall": 0.75
+            },
+            "flag": {
+              "tp": 6,
+              "fp": 2,
+              "fn": 2,
+              "precision": 0.75,
+              "recall": 0.75
+            },
+            "seite": {
+              "tp": 6,
+              "fp": 2,
+              "fn": 2,
+              "precision": 0.75,
+              "recall": 0.75
+            },
+            "wert_einheit_exact": {
+              "tp": 6,
+              "fp": 2,
+              "fn": 2,
+              "precision": 0.75,
+              "recall": 0.75
+            }
+          },
+          "normalisierung": {
+            "loinc": {
+              "tp": 6,
+              "fp": 2,
+              "fn": 2,
+              "precision": 0.75,
+              "recall": 0.75
+            },
+            "ziel_einheit": {
+              "tp": 6,
+              "fp": 2,
+              "fn": 2,
+              "precision": 0.75,
+              "recall": 0.75
+            }
+          },
+          "fehlerklassen": {
+            "wert_fehlt": 2,
+            "wert_zusaetzlich": 2
+          }
+        },
+        {
+          "id": "SYN-016",
+          "layout": "tabelle",
+          "gold": 8,
+          "extrahiert": 8,
+          "felder": {
+            "analyt": {
+              "tp": 8,
+              "fp": 0,
+              "fn": 0,
+              "precision": 1.0,
+              "recall": 1.0
+            },
+            "wert": {
+              "tp": 8,
+              "fp": 0,
+              "fn": 0,
+              "precision": 1.0,
+              "recall": 1.0
+            },
+            "einheit": {
+              "tp": 8,
+              "fp": 0,
+              "fn": 0,
+              "precision": 1.0,
+              "recall": 1.0
+            },
+            "referenz": {
+              "tp": 8,
+              "fp": 0,
+              "fn": 0,
+              "precision": 1.0,
+              "recall": 1.0
+            },
+            "flag": {
+              "tp": 8,
+              "fp": 0,
+              "fn": 0,
+              "precision": 1.0,
+              "recall": 1.0
+            },
+            "seite": {
+              "tp": 8,
+              "fp": 0,
+              "fn": 0,
+              "precision": 1.0,
+              "recall": 1.0
+            },
+            "wert_einheit_exact": {
+              "tp": 8,
+              "fp": 0,
+              "fn": 0,
+              "precision": 1.0,
+              "recall": 1.0
+            }
+          },
+          "normalisierung": {
+            "loinc": {
+              "tp": 8,
+              "fp": 0,
+              "fn": 0,
+              "precision": 1.0,
+              "recall": 1.0
+            },
+            "ziel_einheit": {
+              "tp": 8,
+              "fp": 0,
+              "fn": 0,
+              "precision": 1.0,
+              "recall": 1.0
+            }
+          },
+          "fehlerklassen": {}
+        },
+        {
+          "id": "SYN-017",
+          "layout": "fliesstext",
+          "gold": 8,
+          "extrahiert": 8,
+          "felder": {
+            "analyt": {
+              "tp": 6,
+              "fp": 2,
+              "fn": 2,
+              "precision": 0.75,
+              "recall": 0.75
+            },
+            "wert": {
+              "tp": 6,
+              "fp": 2,
+              "fn": 2,
+              "precision": 0.75,
+              "recall": 0.75
+            },
+            "einheit": {
+              "tp": 6,
+              "fp": 2,
+              "fn": 2,
+              "precision": 0.75,
+              "recall": 0.75
+            },
+            "referenz": {
+              "tp": 6,
+              "fp": 2,
+              "fn": 2,
+              "precision": 0.75,
+              "recall": 0.75
+            },
+            "flag": {
+              "tp": 6,
+              "fp": 2,
+              "fn": 2,
+              "precision": 0.75,
+              "recall": 0.75
+            },
+            "seite": {
+              "tp": 6,
+              "fp": 2,
+              "fn": 2,
+              "precision": 0.75,
+              "recall": 0.75
+            },
+            "wert_einheit_exact": {
+              "tp": 6,
+              "fp": 2,
+              "fn": 2,
+              "precision": 0.75,
+              "recall": 0.75
+            }
+          },
+          "normalisierung": {
+            "loinc": {
+              "tp": 6,
+              "fp": 2,
+              "fn": 2,
+              "precision": 0.75,
+              "recall": 0.75
+            },
+            "ziel_einheit": {
+              "tp": 6,
+              "fp": 2,
+              "fn": 2,
+              "precision": 0.75,
+              "recall": 0.75
+            }
+          },
+          "fehlerklassen": {
+            "wert_fehlt": 2,
+            "wert_zusaetzlich": 2
+          }
+        },
+        {
+          "id": "SYN-018",
+          "layout": "zweispaltig",
+          "gold": 8,
+          "extrahiert": 8,
+          "felder": {
+            "analyt": {
+              "tp": 5,
+              "fp": 3,
+              "fn": 3,
+              "precision": 0.625,
+              "recall": 0.625
+            },
+            "wert": {
+              "tp": 5,
+              "fp": 3,
+              "fn": 3,
+              "precision": 0.625,
+              "recall": 0.625
+            },
+            "einheit": {
+              "tp": 5,
+              "fp": 3,
+              "fn": 3,
+              "precision": 0.625,
+              "recall": 0.625
+            },
+            "referenz": {
+              "tp": 5,
+              "fp": 3,
+              "fn": 3,
+              "precision": 0.625,
+              "recall": 0.625
+            },
+            "flag": {
+              "tp": 5,
+              "fp": 3,
+              "fn": 3,
+              "precision": 0.625,
+              "recall": 0.625
+            },
+            "seite": {
+              "tp": 5,
+              "fp": 3,
+              "fn": 3,
+              "precision": 0.625,
+              "recall": 0.625
+            },
+            "wert_einheit_exact": {
+              "tp": 5,
+              "fp": 3,
+              "fn": 3,
+              "precision": 0.625,
+              "recall": 0.625
+            }
+          },
+          "normalisierung": {
+            "loinc": {
+              "tp": 5,
+              "fp": 3,
+              "fn": 3,
+              "precision": 0.625,
+              "recall": 0.625
+            },
+            "ziel_einheit": {
+              "tp": 5,
+              "fp": 3,
+              "fn": 3,
+              "precision": 0.625,
+              "recall": 0.625
+            }
+          },
+          "fehlerklassen": {
+            "wert_fehlt": 3,
+            "wert_zusaetzlich": 3
+          }
+        }
+      ]
+    },
+    "llm_structured_text": {
+      "befunde": 18,
+      "gesamt": {
+        "felder": {
+          "analyt": {
+            "tp": 144,
+            "fp": 0,
+            "fn": 0,
+            "precision": 1.0,
+            "recall": 1.0
+          },
+          "wert": {
+            "tp": 144,
+            "fp": 0,
+            "fn": 0,
+            "precision": 1.0,
+            "recall": 1.0
+          },
+          "einheit": {
+            "tp": 144,
+            "fp": 0,
+            "fn": 0,
+            "precision": 1.0,
+            "recall": 1.0
+          },
+          "referenz": {
+            "tp": 144,
+            "fp": 0,
+            "fn": 0,
+            "precision": 1.0,
+            "recall": 1.0
+          },
+          "flag": {
+            "tp": 144,
+            "fp": 0,
+            "fn": 0,
+            "precision": 1.0,
+            "recall": 1.0
+          },
+          "seite": {
+            "tp": 144,
+            "fp": 0,
+            "fn": 0,
+            "precision": 1.0,
+            "recall": 1.0
+          },
+          "wert_einheit_exact": {
+            "tp": 144,
+            "fp": 0,
+            "fn": 0,
+            "precision": 1.0,
+            "recall": 1.0
+          }
+        },
+        "normalisierung": {
+          "loinc": {
+            "tp": 144,
+            "fp": 0,
+            "fn": 0,
+            "precision": 1.0,
+            "recall": 1.0
+          },
+          "ziel_einheit": {
+            "tp": 144,
+            "fp": 0,
+            "fn": 0,
+            "precision": 1.0,
+            "recall": 1.0
+          }
+        },
+        "fehlerklassen": {}
+      },
+      "pro_befund": [
+        {
+          "id": "SYN-001",
+          "layout": "tabelle",
+          "gold": 8,
+          "extrahiert": 8,
+          "felder": {
+            "analyt": {
+              "tp": 8,
+              "fp": 0,
+              "fn": 0,
+              "precision": 1.0,
+              "recall": 1.0
+            },
+            "wert": {
+              "tp": 8,
+              "fp": 0,
+              "fn": 0,
+              "precision": 1.0,
+              "recall": 1.0
+            },
+            "einheit": {
+              "tp": 8,
+              "fp": 0,
+              "fn": 0,
+              "precision": 1.0,
+              "recall": 1.0
+            },
+            "referenz": {
+              "tp": 8,
+              "fp": 0,
+              "fn": 0,
+              "precision": 1.0,
+              "recall": 1.0
+            },
+            "flag": {
+              "tp": 8,
+              "fp": 0,
+              "fn": 0,
+              "precision": 1.0,
+              "recall": 1.0
+            },
+            "seite": {
+              "tp": 8,
+              "fp": 0,
+              "fn": 0,
+              "precision": 1.0,
+              "recall": 1.0
+            },
+            "wert_einheit_exact": {
+              "tp": 8,
+              "fp": 0,
+              "fn": 0,
+              "precision": 1.0,
+              "recall": 1.0
+            }
+          },
+          "normalisierung": {
+            "loinc": {
+              "tp": 8,
+              "fp": 0,
+              "fn": 0,
+              "precision": 1.0,
+              "recall": 1.0
+            },
+            "ziel_einheit": {
+              "tp": 8,
+              "fp": 0,
+              "fn": 0,
+              "precision": 1.0,
+              "recall": 1.0
+            }
+          },
+          "fehlerklassen": {}
+        },
+        {
+          "id": "SYN-002",
+          "layout": "fliesstext",
+          "gold": 8,
+          "extrahiert": 8,
+          "felder": {
+            "analyt": {
+              "tp": 8,
+              "fp": 0,
+              "fn": 0,
+              "precision": 1.0,
+              "recall": 1.0
+            },
+            "wert": {
+              "tp": 8,
+              "fp": 0,
+              "fn": 0,
+              "precision": 1.0,
+              "recall": 1.0
+            },
+            "einheit": {
+              "tp": 8,
+              "fp": 0,
+              "fn": 0,
+              "precision": 1.0,
+              "recall": 1.0
+            },
+            "referenz": {
+              "tp": 8,
+              "fp": 0,
+              "fn": 0,
+              "precision": 1.0,
+              "recall": 1.0
+            },
+            "flag": {
+              "tp": 8,
+              "fp": 0,
+              "fn": 0,
+              "precision": 1.0,
+              "recall": 1.0
+            },
+            "seite": {
+              "tp": 8,
+              "fp": 0,
+              "fn": 0,
+              "precision": 1.0,
+              "recall": 1.0
+            },
+            "wert_einheit_exact": {
+              "tp": 8,
+              "fp": 0,
+              "fn": 0,
+              "precision": 1.0,
+              "recall": 1.0
+            }
+          },
+          "normalisierung": {
+            "loinc": {
+              "tp": 8,
+              "fp": 0,
+              "fn": 0,
+              "precision": 1.0,
+              "recall": 1.0
+            },
+            "ziel_einheit": {
+              "tp": 8,
+              "fp": 0,
+              "fn": 0,
+              "precision": 1.0,
+              "recall": 1.0
+            }
+          },
+          "fehlerklassen": {}
+        },
+        {
+          "id": "SYN-003",
+          "layout": "zweispaltig",
+          "gold": 8,
+          "extrahiert": 8,
+          "felder": {
+            "analyt": {
+              "tp": 8,
+              "fp": 0,
+              "fn": 0,
+              "precision": 1.0,
+              "recall": 1.0
+            },
+            "wert": {
+              "tp": 8,
+              "fp": 0,
+              "fn": 0,
+              "precision": 1.0,
+              "recall": 1.0
+            },
+            "einheit": {
+              "tp": 8,
+              "fp": 0,
+              "fn": 0,
+              "precision": 1.0,
+              "recall": 1.0
+            },
+            "referenz": {
+              "tp": 8,
+              "fp": 0,
+              "fn": 0,
+              "precision": 1.0,
+              "recall": 1.0
+            },
+            "flag": {
+              "tp": 8,
+              "fp": 0,
+              "fn": 0,
+              "precision": 1.0,
+              "recall": 1.0
+            },
+            "seite": {
+              "tp": 8,
+              "fp": 0,
+              "fn": 0,
+              "precision": 1.0,
+              "recall": 1.0
+            },
+            "wert_einheit_exact": {
+              "tp": 8,
+              "fp": 0,
+              "fn": 0,
+              "precision": 1.0,
+              "recall": 1.0
+            }
+          },
+          "normalisierung": {
+            "loinc": {
+              "tp": 8,
+              "fp": 0,
+              "fn": 0,
+              "precision": 1.0,
+              "recall": 1.0
+            },
+            "ziel_einheit": {
+              "tp": 8,
+              "fp": 0,
+              "fn": 0,
+              "precision": 1.0,
+              "recall": 1.0
+            }
+          },
+          "fehlerklassen": {}
+        },
+        {
+          "id": "SYN-004",
+          "layout": "tabelle",
+          "gold": 8,
+          "extrahiert": 8,
+          "felder": {
+            "analyt": {
+              "tp": 8,
+              "fp": 0,
+              "fn": 0,
+              "precision": 1.0,
+              "recall": 1.0
+            },
+            "wert": {
+              "tp": 8,
+              "fp": 0,
+              "fn": 0,
+              "precision": 1.0,
+              "recall": 1.0
+            },
+            "einheit": {
+              "tp": 8,
+              "fp": 0,
+              "fn": 0,
+              "precision": 1.0,
+              "recall": 1.0
+            },
+            "referenz": {
+              "tp": 8,
+              "fp": 0,
+              "fn": 0,
+              "precision": 1.0,
+              "recall": 1.0
+            },
+            "flag": {
+              "tp": 8,
+              "fp": 0,
+              "fn": 0,
+              "precision": 1.0,
+              "recall": 1.0
+            },
+            "seite": {
+              "tp": 8,
+              "fp": 0,
+              "fn": 0,
+              "precision": 1.0,
+              "recall": 1.0
+            },
+            "wert_einheit_exact": {
+              "tp": 8,
+              "fp": 0,
+              "fn": 0,
+              "precision": 1.0,
+              "recall": 1.0
+            }
+          },
+          "normalisierung": {
+            "loinc": {
+              "tp": 8,
+              "fp": 0,
+              "fn": 0,
+              "precision": 1.0,
+              "recall": 1.0
+            },
+            "ziel_einheit": {
+              "tp": 8,
+              "fp": 0,
+              "fn": 0,
+              "precision": 1.0,
+              "recall": 1.0
+            }
+          },
+          "fehlerklassen": {}
+        },
+        {
+          "id": "SYN-005",
+          "layout": "fliesstext",
+          "gold": 8,
+          "extrahiert": 8,
+          "felder": {
+            "analyt": {
+              "tp": 8,
+              "fp": 0,
+              "fn": 0,
+              "precision": 1.0,
+              "recall": 1.0
+            },
+            "wert": {
+              "tp": 8,
+              "fp": 0,
+              "fn": 0,
+              "precision": 1.0,
+              "recall": 1.0
+            },
+            "einheit": {
+              "tp": 8,
+              "fp": 0,
+              "fn": 0,
+              "precision": 1.0,
+              "recall": 1.0
+            },
+            "referenz": {
+              "tp": 8,
+              "fp": 0,
+              "fn": 0,
+              "precision": 1.0,
+              "recall": 1.0
+            },
+            "flag": {
+              "tp": 8,
+              "fp": 0,
+              "fn": 0,
+              "precision": 1.0,
+              "recall": 1.0
+            },
+            "seite": {
+              "tp": 8,
+              "fp": 0,
+              "fn": 0,
+              "precision": 1.0,
+              "recall": 1.0
+            },
+            "wert_einheit_exact": {
+              "tp": 8,
+              "fp": 0,
+              "fn": 0,
+              "precision": 1.0,
+              "recall": 1.0
+            }
+          },
+          "normalisierung": {
+            "loinc": {
+              "tp": 8,
+              "fp": 0,
+              "fn": 0,
+              "precision": 1.0,
+              "recall": 1.0
+            },
+            "ziel_einheit": {
+              "tp": 8,
+              "fp": 0,
+              "fn": 0,
+              "precision": 1.0,
+              "recall": 1.0
+            }
+          },
+          "fehlerklassen": {}
+        },
+        {
+          "id": "SYN-006",
+          "layout": "zweispaltig",
+          "gold": 8,
+          "extrahiert": 8,
+          "felder": {
+            "analyt": {
+              "tp": 8,
+              "fp": 0,
+              "fn": 0,
+              "precision": 1.0,
+              "recall": 1.0
+            },
+            "wert": {
+              "tp": 8,
+              "fp": 0,
+              "fn": 0,
+              "precision": 1.0,
+              "recall": 1.0
+            },
+            "einheit": {
+              "tp": 8,
+              "fp": 0,
+              "fn": 0,
+              "precision": 1.0,
+              "recall": 1.0
+            },
+            "referenz": {
+              "tp": 8,
+              "fp": 0,
+              "fn": 0,
+              "precision": 1.0,
+              "recall": 1.0
+            },
+            "flag": {
+              "tp": 8,
+              "fp": 0,
+              "fn": 0,
+              "precision": 1.0,
+              "recall": 1.0
+            },
+            "seite": {
+              "tp": 8,
+              "fp": 0,
+              "fn": 0,
+              "precision": 1.0,
+              "recall": 1.0
+            },
+            "wert_einheit_exact": {
+              "tp": 8,
+              "fp": 0,
+              "fn": 0,
+              "precision": 1.0,
+              "recall": 1.0
+            }
+          },
+          "normalisierung": {
+            "loinc": {
+              "tp": 8,
+              "fp": 0,
+              "fn": 0,
+              "precision": 1.0,
+              "recall": 1.0
+            },
+            "ziel_einheit": {
+              "tp": 8,
+              "fp": 0,
+              "fn": 0,
+              "precision": 1.0,
+              "recall": 1.0
+            }
+          },
+          "fehlerklassen": {}
+        },
+        {
+          "id": "SYN-007",
+          "layout": "tabelle",
+          "gold": 8,
+          "extrahiert": 8,
+          "felder": {
+            "analyt": {
+              "tp": 8,
+              "fp": 0,
+              "fn": 0,
+              "precision": 1.0,
+              "recall": 1.0
+            },
+            "wert": {
+              "tp": 8,
+              "fp": 0,
+              "fn": 0,
+              "precision": 1.0,
+              "recall": 1.0
+            },
+            "einheit": {
+              "tp": 8,
+              "fp": 0,
+              "fn": 0,
+              "precision": 1.0,
+              "recall": 1.0
+            },
+            "referenz": {
+              "tp": 8,
+              "fp": 0,
+              "fn": 0,
+              "precision": 1.0,
+              "recall": 1.0
+            },
+            "flag": {
+              "tp": 8,
+              "fp": 0,
+              "fn": 0,
+              "precision": 1.0,
+              "recall": 1.0
+            },
+            "seite": {
+              "tp": 8,
+              "fp": 0,
+              "fn": 0,
+              "precision": 1.0,
+              "recall": 1.0
+            },
+            "wert_einheit_exact": {
+              "tp": 8,
+              "fp": 0,
+              "fn": 0,
+              "precision": 1.0,
+              "recall": 1.0
+            }
+          },
+          "normalisierung": {
+            "loinc": {
+              "tp": 8,
+              "fp": 0,
+              "fn": 0,
+              "precision": 1.0,
+              "recall": 1.0
+            },
+            "ziel_einheit": {
+              "tp": 8,
+              "fp": 0,
+              "fn": 0,
+              "precision": 1.0,
+              "recall": 1.0
+            }
+          },
+          "fehlerklassen": {}
+        },
+        {
+          "id": "SYN-008",
+          "layout": "fliesstext",
+          "gold": 8,
+          "extrahiert": 8,
+          "felder": {
+            "analyt": {
+              "tp": 8,
+              "fp": 0,
+              "fn": 0,
+              "precision": 1.0,
+              "recall": 1.0
+            },
+            "wert": {
+              "tp": 8,
+              "fp": 0,
+              "fn": 0,
+              "precision": 1.0,
+              "recall": 1.0
+            },
+            "einheit": {
+              "tp": 8,
+              "fp": 0,
+              "fn": 0,
+              "precision": 1.0,
+              "recall": 1.0
+            },
+            "referenz": {
+              "tp": 8,
+              "fp": 0,
+              "fn": 0,
+              "precision": 1.0,
+              "recall": 1.0
+            },
+            "flag": {
+              "tp": 8,
+              "fp": 0,
+              "fn": 0,
+              "precision": 1.0,
+              "recall": 1.0
+            },
+            "seite": {
+              "tp": 8,
+              "fp": 0,
+              "fn": 0,
+              "precision": 1.0,
+              "recall": 1.0
+            },
+            "wert_einheit_exact": {
+              "tp": 8,
+              "fp": 0,
+              "fn": 0,
+              "precision": 1.0,
+              "recall": 1.0
+            }
+          },
+          "normalisierung": {
+            "loinc": {
+              "tp": 8,
+              "fp": 0,
+              "fn": 0,
+              "precision": 1.0,
+              "recall": 1.0
+            },
+            "ziel_einheit": {
+              "tp": 8,
+              "fp": 0,
+              "fn": 0,
+              "precision": 1.0,
+              "recall": 1.0
+            }
+          },
+          "fehlerklassen": {}
+        },
+        {
+          "id": "SYN-009",
+          "layout": "zweispaltig",
+          "gold": 8,
+          "extrahiert": 8,
+          "felder": {
+            "analyt": {
+              "tp": 8,
+              "fp": 0,
+              "fn": 0,
+              "precision": 1.0,
+              "recall": 1.0
+            },
+            "wert": {
+              "tp": 8,
+              "fp": 0,
+              "fn": 0,
+              "precision": 1.0,
+              "recall": 1.0
+            },
+            "einheit": {
+              "tp": 8,
+              "fp": 0,
+              "fn": 0,
+              "precision": 1.0,
+              "recall": 1.0
+            },
+            "referenz": {
+              "tp": 8,
+              "fp": 0,
+              "fn": 0,
+              "precision": 1.0,
+              "recall": 1.0
+            },
+            "flag": {
+              "tp": 8,
+              "fp": 0,
+              "fn": 0,
+              "precision": 1.0,
+              "recall": 1.0
+            },
+            "seite": {
+              "tp": 8,
+              "fp": 0,
+              "fn": 0,
+              "precision": 1.0,
+              "recall": 1.0
+            },
+            "wert_einheit_exact": {
+              "tp": 8,
+              "fp": 0,
+              "fn": 0,
+              "precision": 1.0,
+              "recall": 1.0
+            }
+          },
+          "normalisierung": {
+            "loinc": {
+              "tp": 8,
+              "fp": 0,
+              "fn": 0,
+              "precision": 1.0,
+              "recall": 1.0
+            },
+            "ziel_einheit": {
+              "tp": 8,
+              "fp": 0,
+              "fn": 0,
+              "precision": 1.0,
+              "recall": 1.0
+            }
+          },
+          "fehlerklassen": {}
+        },
+        {
+          "id": "SYN-010",
+          "layout": "tabelle",
+          "gold": 8,
+          "extrahiert": 8,
+          "felder": {
+            "analyt": {
+              "tp": 8,
+              "fp": 0,
+              "fn": 0,
+              "precision": 1.0,
+              "recall": 1.0
+            },
+            "wert": {
+              "tp": 8,
+              "fp": 0,
+              "fn": 0,
+              "precision": 1.0,
+              "recall": 1.0
+            },
+            "einheit": {
+              "tp": 8,
+              "fp": 0,
+              "fn": 0,
+              "precision": 1.0,
+              "recall": 1.0
+            },
+            "referenz": {
+              "tp": 8,
+              "fp": 0,
+              "fn": 0,
+              "precision": 1.0,
+              "recall": 1.0
+            },
+            "flag": {
+              "tp": 8,
+              "fp": 0,
+              "fn": 0,
+              "precision": 1.0,
+              "recall": 1.0
+            },
+            "seite": {
+              "tp": 8,
+              "fp": 0,
+              "fn": 0,
+              "precision": 1.0,
+              "recall": 1.0
+            },
+            "wert_einheit_exact": {
+              "tp": 8,
+              "fp": 0,
+              "fn": 0,
+              "precision": 1.0,
+              "recall": 1.0
+            }
+          },
+          "normalisierung": {
+            "loinc": {
+              "tp": 8,
+              "fp": 0,
+              "fn": 0,
+              "precision": 1.0,
+              "recall": 1.0
+            },
+            "ziel_einheit": {
+              "tp": 8,
+              "fp": 0,
+              "fn": 0,
+              "precision": 1.0,
+              "recall": 1.0
+            }
+          },
+          "fehlerklassen": {}
+        },
+        {
+          "id": "SYN-011",
+          "layout": "fliesstext",
+          "gold": 8,
+          "extrahiert": 8,
+          "felder": {
+            "analyt": {
+              "tp": 8,
+              "fp": 0,
+              "fn": 0,
+              "precision": 1.0,
+              "recall": 1.0
+            },
+            "wert": {
+              "tp": 8,
+              "fp": 0,
+              "fn": 0,
+              "precision": 1.0,
+              "recall": 1.0
+            },
+            "einheit": {
+              "tp": 8,
+              "fp": 0,
+              "fn": 0,
+              "precision": 1.0,
+              "recall": 1.0
+            },
+            "referenz": {
+              "tp": 8,
+              "fp": 0,
+              "fn": 0,
+              "precision": 1.0,
+              "recall": 1.0
+            },
+            "flag": {
+              "tp": 8,
+              "fp": 0,
+              "fn": 0,
+              "precision": 1.0,
+              "recall": 1.0
+            },
+            "seite": {
+              "tp": 8,
+              "fp": 0,
+              "fn": 0,
+              "precision": 1.0,
+              "recall": 1.0
+            },
+            "wert_einheit_exact": {
+              "tp": 8,
+              "fp": 0,
+              "fn": 0,
+              "precision": 1.0,
+              "recall": 1.0
+            }
+          },
+          "normalisierung": {
+            "loinc": {
+              "tp": 8,
+              "fp": 0,
+              "fn": 0,
+              "precision": 1.0,
+              "recall": 1.0
+            },
+            "ziel_einheit": {
+              "tp": 8,
+              "fp": 0,
+              "fn": 0,
+              "precision": 1.0,
+              "recall": 1.0
+            }
+          },
+          "fehlerklassen": {}
+        },
+        {
+          "id": "SYN-012",
+          "layout": "zweispaltig",
+          "gold": 8,
+          "extrahiert": 8,
+          "felder": {
+            "analyt": {
+              "tp": 8,
+              "fp": 0,
+              "fn": 0,
+              "precision": 1.0,
+              "recall": 1.0
+            },
+            "wert": {
+              "tp": 8,
+              "fp": 0,
+              "fn": 0,
+              "precision": 1.0,
+              "recall": 1.0
+            },
+            "einheit": {
+              "tp": 8,
+              "fp": 0,
+              "fn": 0,
+              "precision": 1.0,
+              "recall": 1.0
+            },
+            "referenz": {
+              "tp": 8,
+              "fp": 0,
+              "fn": 0,
+              "precision": 1.0,
+              "recall": 1.0
+            },
+            "flag": {
+              "tp": 8,
+              "fp": 0,
+              "fn": 0,
+              "precision": 1.0,
+              "recall": 1.0
+            },
+            "seite": {
+              "tp": 8,
+              "fp": 0,
+              "fn": 0,
+              "precision": 1.0,
+              "recall": 1.0
+            },
+            "wert_einheit_exact": {
+              "tp": 8,
+              "fp": 0,
+              "fn": 0,
+              "precision": 1.0,
+              "recall": 1.0
+            }
+          },
+          "normalisierung": {
+            "loinc": {
+              "tp": 8,
+              "fp": 0,
+              "fn": 0,
+              "precision": 1.0,
+              "recall": 1.0
+            },
+            "ziel_einheit": {
+              "tp": 8,
+              "fp": 0,
+              "fn": 0,
+              "precision": 1.0,
+              "recall": 1.0
+            }
+          },
+          "fehlerklassen": {}
+        },
+        {
+          "id": "SYN-013",
+          "layout": "tabelle",
+          "gold": 8,
+          "extrahiert": 8,
+          "felder": {
+            "analyt": {
+              "tp": 8,
+              "fp": 0,
+              "fn": 0,
+              "precision": 1.0,
+              "recall": 1.0
+            },
+            "wert": {
+              "tp": 8,
+              "fp": 0,
+              "fn": 0,
+              "precision": 1.0,
+              "recall": 1.0
+            },
+            "einheit": {
+              "tp": 8,
+              "fp": 0,
+              "fn": 0,
+              "precision": 1.0,
+              "recall": 1.0
+            },
+            "referenz": {
+              "tp": 8,
+              "fp": 0,
+              "fn": 0,
+              "precision": 1.0,
+              "recall": 1.0
+            },
+            "flag": {
+              "tp": 8,
+              "fp": 0,
+              "fn": 0,
+              "precision": 1.0,
+              "recall": 1.0
+            },
+            "seite": {
+              "tp": 8,
+              "fp": 0,
+              "fn": 0,
+              "precision": 1.0,
+              "recall": 1.0
+            },
+            "wert_einheit_exact": {
+              "tp": 8,
+              "fp": 0,
+              "fn": 0,
+              "precision": 1.0,
+              "recall": 1.0
+            }
+          },
+          "normalisierung": {
+            "loinc": {
+              "tp": 8,
+              "fp": 0,
+              "fn": 0,
+              "precision": 1.0,
+              "recall": 1.0
+            },
+            "ziel_einheit": {
+              "tp": 8,
+              "fp": 0,
+              "fn": 0,
+              "precision": 1.0,
+              "recall": 1.0
+            }
+          },
+          "fehlerklassen": {}
+        },
+        {
+          "id": "SYN-014",
+          "layout": "fliesstext",
+          "gold": 8,
+          "extrahiert": 8,
+          "felder": {
+            "analyt": {
+              "tp": 8,
+              "fp": 0,
+              "fn": 0,
+              "precision": 1.0,
+              "recall": 1.0
+            },
+            "wert": {
+              "tp": 8,
+              "fp": 0,
+              "fn": 0,
+              "precision": 1.0,
+              "recall": 1.0
+            },
+            "einheit": {
+              "tp": 8,
+              "fp": 0,
+              "fn": 0,
+              "precision": 1.0,
+              "recall": 1.0
+            },
+            "referenz": {
+              "tp": 8,
+              "fp": 0,
+              "fn": 0,
+              "precision": 1.0,
+              "recall": 1.0
+            },
+            "flag": {
+              "tp": 8,
+              "fp": 0,
+              "fn": 0,
+              "precision": 1.0,
+              "recall": 1.0
+            },
+            "seite": {
+              "tp": 8,
+              "fp": 0,
+              "fn": 0,
+              "precision": 1.0,
+              "recall": 1.0
+            },
+            "wert_einheit_exact": {
+              "tp": 8,
+              "fp": 0,
+              "fn": 0,
+              "precision": 1.0,
+              "recall": 1.0
+            }
+          },
+          "normalisierung": {
+            "loinc": {
+              "tp": 8,
+              "fp": 0,
+              "fn": 0,
+              "precision": 1.0,
+              "recall": 1.0
+            },
+            "ziel_einheit": {
+              "tp": 8,
+              "fp": 0,
+              "fn": 0,
+              "precision": 1.0,
+              "recall": 1.0
+            }
+          },
+          "fehlerklassen": {}
+        },
+        {
+          "id": "SYN-015",
+          "layout": "zweispaltig",
+          "gold": 8,
+          "extrahiert": 8,
+          "felder": {
+            "analyt": {
+              "tp": 8,
+              "fp": 0,
+              "fn": 0,
+              "precision": 1.0,
+              "recall": 1.0
+            },
+            "wert": {
+              "tp": 8,
+              "fp": 0,
+              "fn": 0,
+              "precision": 1.0,
+              "recall": 1.0
+            },
+            "einheit": {
+              "tp": 8,
+              "fp": 0,
+              "fn": 0,
+              "precision": 1.0,
+              "recall": 1.0
+            },
+            "referenz": {
+              "tp": 8,
+              "fp": 0,
+              "fn": 0,
+              "precision": 1.0,
+              "recall": 1.0
+            },
+            "flag": {
+              "tp": 8,
+              "fp": 0,
+              "fn": 0,
+              "precision": 1.0,
+              "recall": 1.0
+            },
+            "seite": {
+              "tp": 8,
+              "fp": 0,
+              "fn": 0,
+              "precision": 1.0,
+              "recall": 1.0
+            },
+            "wert_einheit_exact": {
+              "tp": 8,
+              "fp": 0,
+              "fn": 0,
+              "precision": 1.0,
+              "recall": 1.0
+            }
+          },
+          "normalisierung": {
+            "loinc": {
+              "tp": 8,
+              "fp": 0,
+              "fn": 0,
+              "precision": 1.0,
+              "recall": 1.0
+            },
+            "ziel_einheit": {
+              "tp": 8,
+              "fp": 0,
+              "fn": 0,
+              "precision": 1.0,
+              "recall": 1.0
+            }
+          },
+          "fehlerklassen": {}
+        },
+        {
+          "id": "SYN-016",
+          "layout": "tabelle",
+          "gold": 8,
+          "extrahiert": 8,
+          "felder": {
+            "analyt": {
+              "tp": 8,
+              "fp": 0,
+              "fn": 0,
+              "precision": 1.0,
+              "recall": 1.0
+            },
+            "wert": {
+              "tp": 8,
+              "fp": 0,
+              "fn": 0,
+              "precision": 1.0,
+              "recall": 1.0
+            },
+            "einheit": {
+              "tp": 8,
+              "fp": 0,
+              "fn": 0,
+              "precision": 1.0,
+              "recall": 1.0
+            },
+            "referenz": {
+              "tp": 8,
+              "fp": 0,
+              "fn": 0,
+              "precision": 1.0,
+              "recall": 1.0
+            },
+            "flag": {
+              "tp": 8,
+              "fp": 0,
+              "fn": 0,
+              "precision": 1.0,
+              "recall": 1.0
+            },
+            "seite": {
+              "tp": 8,
+              "fp": 0,
+              "fn": 0,
+              "precision": 1.0,
+              "recall": 1.0
+            },
+            "wert_einheit_exact": {
+              "tp": 8,
+              "fp": 0,
+              "fn": 0,
+              "precision": 1.0,
+              "recall": 1.0
+            }
+          },
+          "normalisierung": {
+            "loinc": {
+              "tp": 8,
+              "fp": 0,
+              "fn": 0,
+              "precision": 1.0,
+              "recall": 1.0
+            },
+            "ziel_einheit": {
+              "tp": 8,
+              "fp": 0,
+              "fn": 0,
+              "precision": 1.0,
+              "recall": 1.0
+            }
+          },
+          "fehlerklassen": {}
+        },
+        {
+          "id": "SYN-017",
+          "layout": "fliesstext",
+          "gold": 8,
+          "extrahiert": 8,
+          "felder": {
+            "analyt": {
+              "tp": 8,
+              "fp": 0,
+              "fn": 0,
+              "precision": 1.0,
+              "recall": 1.0
+            },
+            "wert": {
+              "tp": 8,
+              "fp": 0,
+              "fn": 0,
+              "precision": 1.0,
+              "recall": 1.0
+            },
+            "einheit": {
+              "tp": 8,
+              "fp": 0,
+              "fn": 0,
+              "precision": 1.0,
+              "recall": 1.0
+            },
+            "referenz": {
+              "tp": 8,
+              "fp": 0,
+              "fn": 0,
+              "precision": 1.0,
+              "recall": 1.0
+            },
+            "flag": {
+              "tp": 8,
+              "fp": 0,
+              "fn": 0,
+              "precision": 1.0,
+              "recall": 1.0
+            },
+            "seite": {
+              "tp": 8,
+              "fp": 0,
+              "fn": 0,
+              "precision": 1.0,
+              "recall": 1.0
+            },
+            "wert_einheit_exact": {
+              "tp": 8,
+              "fp": 0,
+              "fn": 0,
+              "precision": 1.0,
+              "recall": 1.0
+            }
+          },
+          "normalisierung": {
+            "loinc": {
+              "tp": 8,
+              "fp": 0,
+              "fn": 0,
+              "precision": 1.0,
+              "recall": 1.0
+            },
+            "ziel_einheit": {
+              "tp": 8,
+              "fp": 0,
+              "fn": 0,
+              "precision": 1.0,
+              "recall": 1.0
+            }
+          },
+          "fehlerklassen": {}
+        },
+        {
+          "id": "SYN-018",
+          "layout": "zweispaltig",
+          "gold": 8,
+          "extrahiert": 8,
+          "felder": {
+            "analyt": {
+              "tp": 8,
+              "fp": 0,
+              "fn": 0,
+              "precision": 1.0,
+              "recall": 1.0
+            },
+            "wert": {
+              "tp": 8,
+              "fp": 0,
+              "fn": 0,
+              "precision": 1.0,
+              "recall": 1.0
+            },
+            "einheit": {
+              "tp": 8,
+              "fp": 0,
+              "fn": 0,
+              "precision": 1.0,
+              "recall": 1.0
+            },
+            "referenz": {
+              "tp": 8,
+              "fp": 0,
+              "fn": 0,
+              "precision": 1.0,
+              "recall": 1.0
+            },
+            "flag": {
+              "tp": 8,
+              "fp": 0,
+              "fn": 0,
+              "precision": 1.0,
+              "recall": 1.0
+            },
+            "seite": {
+              "tp": 8,
+              "fp": 0,
+              "fn": 0,
+              "precision": 1.0,
+              "recall": 1.0
+            },
+            "wert_einheit_exact": {
+              "tp": 8,
+              "fp": 0,
+              "fn": 0,
+              "precision": 1.0,
+              "recall": 1.0
+            }
+          },
+          "normalisierung": {
+            "loinc": {
+              "tp": 8,
+              "fp": 0,
+              "fn": 0,
+              "precision": 1.0,
+              "recall": 1.0
+            },
+            "ziel_einheit": {
+              "tp": 8,
+              "fp": 0,
+              "fn": 0,
+              "precision": 1.0,
+              "recall": 1.0
+            }
+          },
+          "fehlerklassen": {}
+        }
+      ]
+    },
+    "llm_structured_alt_model": {
+      "befunde": 18,
+      "gesamt": {
+        "felder": {
+          "analyt": {
+            "tp": 144,
+            "fp": 0,
+            "fn": 0,
+            "precision": 1.0,
+            "recall": 1.0
+          },
+          "wert": {
+            "tp": 144,
+            "fp": 0,
+            "fn": 0,
+            "precision": 1.0,
+            "recall": 1.0
+          },
+          "einheit": {
+            "tp": 144,
+            "fp": 0,
+            "fn": 0,
+            "precision": 1.0,
+            "recall": 1.0
+          },
+          "referenz": {
+            "tp": 144,
+            "fp": 0,
+            "fn": 0,
+            "precision": 1.0,
+            "recall": 1.0
+          },
+          "flag": {
+            "tp": 126,
+            "fp": 18,
+            "fn": 18,
+            "precision": 0.875,
+            "recall": 0.875
+          },
+          "seite": {
+            "tp": 144,
+            "fp": 0,
+            "fn": 0,
+            "precision": 1.0,
+            "recall": 1.0
+          },
+          "wert_einheit_exact": {
+            "tp": 144,
+            "fp": 0,
+            "fn": 0,
+            "precision": 1.0,
+            "recall": 1.0
+          }
+        },
+        "normalisierung": {
+          "loinc": {
+            "tp": 144,
+            "fp": 0,
+            "fn": 0,
+            "precision": 1.0,
+            "recall": 1.0
+          },
+          "ziel_einheit": {
+            "tp": 144,
+            "fp": 0,
+            "fn": 0,
+            "precision": 1.0,
+            "recall": 1.0
+          }
+        },
+        "fehlerklassen": {
+          "flag_falsch": 18
+        }
+      },
+      "pro_befund": [
+        {
+          "id": "SYN-001",
+          "layout": "tabelle",
+          "gold": 8,
+          "extrahiert": 8,
+          "felder": {
+            "analyt": {
+              "tp": 8,
+              "fp": 0,
+              "fn": 0,
+              "precision": 1.0,
+              "recall": 1.0
+            },
+            "wert": {
+              "tp": 8,
+              "fp": 0,
+              "fn": 0,
+              "precision": 1.0,
+              "recall": 1.0
+            },
+            "einheit": {
+              "tp": 8,
+              "fp": 0,
+              "fn": 0,
+              "precision": 1.0,
+              "recall": 1.0
+            },
+            "referenz": {
+              "tp": 8,
+              "fp": 0,
+              "fn": 0,
+              "precision": 1.0,
+              "recall": 1.0
+            },
+            "flag": {
+              "tp": 8,
+              "fp": 0,
+              "fn": 0,
+              "precision": 1.0,
+              "recall": 1.0
+            },
+            "seite": {
+              "tp": 8,
+              "fp": 0,
+              "fn": 0,
+              "precision": 1.0,
+              "recall": 1.0
+            },
+            "wert_einheit_exact": {
+              "tp": 8,
+              "fp": 0,
+              "fn": 0,
+              "precision": 1.0,
+              "recall": 1.0
+            }
+          },
+          "normalisierung": {
+            "loinc": {
+              "tp": 8,
+              "fp": 0,
+              "fn": 0,
+              "precision": 1.0,
+              "recall": 1.0
+            },
+            "ziel_einheit": {
+              "tp": 8,
+              "fp": 0,
+              "fn": 0,
+              "precision": 1.0,
+              "recall": 1.0
+            }
+          },
+          "fehlerklassen": {}
+        },
+        {
+          "id": "SYN-002",
+          "layout": "fliesstext",
+          "gold": 8,
+          "extrahiert": 8,
+          "felder": {
+            "analyt": {
+              "tp": 8,
+              "fp": 0,
+              "fn": 0,
+              "precision": 1.0,
+              "recall": 1.0
+            },
+            "wert": {
+              "tp": 8,
+              "fp": 0,
+              "fn": 0,
+              "precision": 1.0,
+              "recall": 1.0
+            },
+            "einheit": {
+              "tp": 8,
+              "fp": 0,
+              "fn": 0,
+              "precision": 1.0,
+              "recall": 1.0
+            },
+            "referenz": {
+              "tp": 8,
+              "fp": 0,
+              "fn": 0,
+              "precision": 1.0,
+              "recall": 1.0
+            },
+            "flag": {
+              "tp": 8,
+              "fp": 0,
+              "fn": 0,
+              "precision": 1.0,
+              "recall": 1.0
+            },
+            "seite": {
+              "tp": 8,
+              "fp": 0,
+              "fn": 0,
+              "precision": 1.0,
+              "recall": 1.0
+            },
+            "wert_einheit_exact": {
+              "tp": 8,
+              "fp": 0,
+              "fn": 0,
+              "precision": 1.0,
+              "recall": 1.0
+            }
+          },
+          "normalisierung": {
+            "loinc": {
+              "tp": 8,
+              "fp": 0,
+              "fn": 0,
+              "precision": 1.0,
+              "recall": 1.0
+            },
+            "ziel_einheit": {
+              "tp": 8,
+              "fp": 0,
+              "fn": 0,
+              "precision": 1.0,
+              "recall": 1.0
+            }
+          },
+          "fehlerklassen": {}
+        },
+        {
+          "id": "SYN-003",
+          "layout": "zweispaltig",
+          "gold": 8,
+          "extrahiert": 8,
+          "felder": {
+            "analyt": {
+              "tp": 8,
+              "fp": 0,
+              "fn": 0,
+              "precision": 1.0,
+              "recall": 1.0
+            },
+            "wert": {
+              "tp": 8,
+              "fp": 0,
+              "fn": 0,
+              "precision": 1.0,
+              "recall": 1.0
+            },
+            "einheit": {
+              "tp": 8,
+              "fp": 0,
+              "fn": 0,
+              "precision": 1.0,
+              "recall": 1.0
+            },
+            "referenz": {
+              "tp": 8,
+              "fp": 0,
+              "fn": 0,
+              "precision": 1.0,
+              "recall": 1.0
+            },
+            "flag": {
+              "tp": 8,
+              "fp": 0,
+              "fn": 0,
+              "precision": 1.0,
+              "recall": 1.0
+            },
+            "seite": {
+              "tp": 8,
+              "fp": 0,
+              "fn": 0,
+              "precision": 1.0,
+              "recall": 1.0
+            },
+            "wert_einheit_exact": {
+              "tp": 8,
+              "fp": 0,
+              "fn": 0,
+              "precision": 1.0,
+              "recall": 1.0
+            }
+          },
+          "normalisierung": {
+            "loinc": {
+              "tp": 8,
+              "fp": 0,
+              "fn": 0,
+              "precision": 1.0,
+              "recall": 1.0
+            },
+            "ziel_einheit": {
+              "tp": 8,
+              "fp": 0,
+              "fn": 0,
+              "precision": 1.0,
+              "recall": 1.0
+            }
+          },
+          "fehlerklassen": {}
+        },
+        {
+          "id": "SYN-004",
+          "layout": "tabelle",
+          "gold": 8,
+          "extrahiert": 8,
+          "felder": {
+            "analyt": {
+              "tp": 8,
+              "fp": 0,
+              "fn": 0,
+              "precision": 1.0,
+              "recall": 1.0
+            },
+            "wert": {
+              "tp": 8,
+              "fp": 0,
+              "fn": 0,
+              "precision": 1.0,
+              "recall": 1.0
+            },
+            "einheit": {
+              "tp": 8,
+              "fp": 0,
+              "fn": 0,
+              "precision": 1.0,
+              "recall": 1.0
+            },
+            "referenz": {
+              "tp": 8,
+              "fp": 0,
+              "fn": 0,
+              "precision": 1.0,
+              "recall": 1.0
+            },
+            "flag": {
+              "tp": 8,
+              "fp": 0,
+              "fn": 0,
+              "precision": 1.0,
+              "recall": 1.0
+            },
+            "seite": {
+              "tp": 8,
+              "fp": 0,
+              "fn": 0,
+              "precision": 1.0,
+              "recall": 1.0
+            },
+            "wert_einheit_exact": {
+              "tp": 8,
+              "fp": 0,
+              "fn": 0,
+              "precision": 1.0,
+              "recall": 1.0
+            }
+          },
+          "normalisierung": {
+            "loinc": {
+              "tp": 8,
+              "fp": 0,
+              "fn": 0,
+              "precision": 1.0,
+              "recall": 1.0
+            },
+            "ziel_einheit": {
+              "tp": 8,
+              "fp": 0,
+              "fn": 0,
+              "precision": 1.0,
+              "recall": 1.0
+            }
+          },
+          "fehlerklassen": {}
+        },
+        {
+          "id": "SYN-005",
+          "layout": "fliesstext",
+          "gold": 8,
+          "extrahiert": 8,
+          "felder": {
+            "analyt": {
+              "tp": 8,
+              "fp": 0,
+              "fn": 0,
+              "precision": 1.0,
+              "recall": 1.0
+            },
+            "wert": {
+              "tp": 8,
+              "fp": 0,
+              "fn": 0,
+              "precision": 1.0,
+              "recall": 1.0
+            },
+            "einheit": {
+              "tp": 8,
+              "fp": 0,
+              "fn": 0,
+              "precision": 1.0,
+              "recall": 1.0
+            },
+            "referenz": {
+              "tp": 8,
+              "fp": 0,
+              "fn": 0,
+              "precision": 1.0,
+              "recall": 1.0
+            },
+            "flag": {
+              "tp": 8,
+              "fp": 0,
+              "fn": 0,
+              "precision": 1.0,
+              "recall": 1.0
+            },
+            "seite": {
+              "tp": 8,
+              "fp": 0,
+              "fn": 0,
+              "precision": 1.0,
+              "recall": 1.0
+            },
+            "wert_einheit_exact": {
+              "tp": 8,
+              "fp": 0,
+              "fn": 0,
+              "precision": 1.0,
+              "recall": 1.0
+            }
+          },
+          "normalisierung": {
+            "loinc": {
+              "tp": 8,
+              "fp": 0,
+              "fn": 0,
+              "precision": 1.0,
+              "recall": 1.0
+            },
+            "ziel_einheit": {
+              "tp": 8,
+              "fp": 0,
+              "fn": 0,
+              "precision": 1.0,
+              "recall": 1.0
+            }
+          },
+          "fehlerklassen": {}
+        },
+        {
+          "id": "SYN-006",
+          "layout": "zweispaltig",
+          "gold": 8,
+          "extrahiert": 8,
+          "felder": {
+            "analyt": {
+              "tp": 8,
+              "fp": 0,
+              "fn": 0,
+              "precision": 1.0,
+              "recall": 1.0
+            },
+            "wert": {
+              "tp": 8,
+              "fp": 0,
+              "fn": 0,
+              "precision": 1.0,
+              "recall": 1.0
+            },
+            "einheit": {
+              "tp": 8,
+              "fp": 0,
+              "fn": 0,
+              "precision": 1.0,
+              "recall": 1.0
+            },
+            "referenz": {
+              "tp": 8,
+              "fp": 0,
+              "fn": 0,
+              "precision": 1.0,
+              "recall": 1.0
+            },
+            "flag": {
+              "tp": 8,
+              "fp": 0,
+              "fn": 0,
+              "precision": 1.0,
+              "recall": 1.0
+            },
+            "seite": {
+              "tp": 8,
+              "fp": 0,
+              "fn": 0,
+              "precision": 1.0,
+              "recall": 1.0
+            },
+            "wert_einheit_exact": {
+              "tp": 8,
+              "fp": 0,
+              "fn": 0,
+              "precision": 1.0,
+              "recall": 1.0
+            }
+          },
+          "normalisierung": {
+            "loinc": {
+              "tp": 8,
+              "fp": 0,
+              "fn": 0,
+              "precision": 1.0,
+              "recall": 1.0
+            },
+            "ziel_einheit": {
+              "tp": 8,
+              "fp": 0,
+              "fn": 0,
+              "precision": 1.0,
+              "recall": 1.0
+            }
+          },
+          "fehlerklassen": {}
+        },
+        {
+          "id": "SYN-007",
+          "layout": "tabelle",
+          "gold": 8,
+          "extrahiert": 8,
+          "felder": {
+            "analyt": {
+              "tp": 8,
+              "fp": 0,
+              "fn": 0,
+              "precision": 1.0,
+              "recall": 1.0
+            },
+            "wert": {
+              "tp": 8,
+              "fp": 0,
+              "fn": 0,
+              "precision": 1.0,
+              "recall": 1.0
+            },
+            "einheit": {
+              "tp": 8,
+              "fp": 0,
+              "fn": 0,
+              "precision": 1.0,
+              "recall": 1.0
+            },
+            "referenz": {
+              "tp": 8,
+              "fp": 0,
+              "fn": 0,
+              "precision": 1.0,
+              "recall": 1.0
+            },
+            "flag": {
+              "tp": 0,
+              "fp": 8,
+              "fn": 8,
+              "precision": 0.0,
+              "recall": 0.0
+            },
+            "seite": {
+              "tp": 8,
+              "fp": 0,
+              "fn": 0,
+              "precision": 1.0,
+              "recall": 1.0
+            },
+            "wert_einheit_exact": {
+              "tp": 8,
+              "fp": 0,
+              "fn": 0,
+              "precision": 1.0,
+              "recall": 1.0
+            }
+          },
+          "normalisierung": {
+            "loinc": {
+              "tp": 8,
+              "fp": 0,
+              "fn": 0,
+              "precision": 1.0,
+              "recall": 1.0
+            },
+            "ziel_einheit": {
+              "tp": 8,
+              "fp": 0,
+              "fn": 0,
+              "precision": 1.0,
+              "recall": 1.0
+            }
+          },
+          "fehlerklassen": {
+            "flag_falsch": 8
+          }
+        },
+        {
+          "id": "SYN-008",
+          "layout": "fliesstext",
+          "gold": 8,
+          "extrahiert": 8,
+          "felder": {
+            "analyt": {
+              "tp": 8,
+              "fp": 0,
+              "fn": 0,
+              "precision": 1.0,
+              "recall": 1.0
+            },
+            "wert": {
+              "tp": 8,
+              "fp": 0,
+              "fn": 0,
+              "precision": 1.0,
+              "recall": 1.0
+            },
+            "einheit": {
+              "tp": 8,
+              "fp": 0,
+              "fn": 0,
+              "precision": 1.0,
+              "recall": 1.0
+            },
+            "referenz": {
+              "tp": 8,
+              "fp": 0,
+              "fn": 0,
+              "precision": 1.0,
+              "recall": 1.0
+            },
+            "flag": {
+              "tp": 8,
+              "fp": 0,
+              "fn": 0,
+              "precision": 1.0,
+              "recall": 1.0
+            },
+            "seite": {
+              "tp": 8,
+              "fp": 0,
+              "fn": 0,
+              "precision": 1.0,
+              "recall": 1.0
+            },
+            "wert_einheit_exact": {
+              "tp": 8,
+              "fp": 0,
+              "fn": 0,
+              "precision": 1.0,
+              "recall": 1.0
+            }
+          },
+          "normalisierung": {
+            "loinc": {
+              "tp": 8,
+              "fp": 0,
+              "fn": 0,
+              "precision": 1.0,
+              "recall": 1.0
+            },
+            "ziel_einheit": {
+              "tp": 8,
+              "fp": 0,
+              "fn": 0,
+              "precision": 1.0,
+              "recall": 1.0
+            }
+          },
+          "fehlerklassen": {}
+        },
+        {
+          "id": "SYN-009",
+          "layout": "zweispaltig",
+          "gold": 8,
+          "extrahiert": 8,
+          "felder": {
+            "analyt": {
+              "tp": 8,
+              "fp": 0,
+              "fn": 0,
+              "precision": 1.0,
+              "recall": 1.0
+            },
+            "wert": {
+              "tp": 8,
+              "fp": 0,
+              "fn": 0,
+              "precision": 1.0,
+              "recall": 1.0
+            },
+            "einheit": {
+              "tp": 8,
+              "fp": 0,
+              "fn": 0,
+              "precision": 1.0,
+              "recall": 1.0
+            },
+            "referenz": {
+              "tp": 8,
+              "fp": 0,
+              "fn": 0,
+              "precision": 1.0,
+              "recall": 1.0
+            },
+            "flag": {
+              "tp": 8,
+              "fp": 0,
+              "fn": 0,
+              "precision": 1.0,
+              "recall": 1.0
+            },
+            "seite": {
+              "tp": 8,
+              "fp": 0,
+              "fn": 0,
+              "precision": 1.0,
+              "recall": 1.0
+            },
+            "wert_einheit_exact": {
+              "tp": 8,
+              "fp": 0,
+              "fn": 0,
+              "precision": 1.0,
+              "recall": 1.0
+            }
+          },
+          "normalisierung": {
+            "loinc": {
+              "tp": 8,
+              "fp": 0,
+              "fn": 0,
+              "precision": 1.0,
+              "recall": 1.0
+            },
+            "ziel_einheit": {
+              "tp": 8,
+              "fp": 0,
+              "fn": 0,
+              "precision": 1.0,
+              "recall": 1.0
+            }
+          },
+          "fehlerklassen": {}
+        },
+        {
+          "id": "SYN-010",
+          "layout": "tabelle",
+          "gold": 8,
+          "extrahiert": 8,
+          "felder": {
+            "analyt": {
+              "tp": 8,
+              "fp": 0,
+              "fn": 0,
+              "precision": 1.0,
+              "recall": 1.0
+            },
+            "wert": {
+              "tp": 8,
+              "fp": 0,
+              "fn": 0,
+              "precision": 1.0,
+              "recall": 1.0
+            },
+            "einheit": {
+              "tp": 8,
+              "fp": 0,
+              "fn": 0,
+              "precision": 1.0,
+              "recall": 1.0
+            },
+            "referenz": {
+              "tp": 8,
+              "fp": 0,
+              "fn": 0,
+              "precision": 1.0,
+              "recall": 1.0
+            },
+            "flag": {
+              "tp": 0,
+              "fp": 8,
+              "fn": 8,
+              "precision": 0.0,
+              "recall": 0.0
+            },
+            "seite": {
+              "tp": 8,
+              "fp": 0,
+              "fn": 0,
+              "precision": 1.0,
+              "recall": 1.0
+            },
+            "wert_einheit_exact": {
+              "tp": 8,
+              "fp": 0,
+              "fn": 0,
+              "precision": 1.0,
+              "recall": 1.0
+            }
+          },
+          "normalisierung": {
+            "loinc": {
+              "tp": 8,
+              "fp": 0,
+              "fn": 0,
+              "precision": 1.0,
+              "recall": 1.0
+            },
+            "ziel_einheit": {
+              "tp": 8,
+              "fp": 0,
+              "fn": 0,
+              "precision": 1.0,
+              "recall": 1.0
+            }
+          },
+          "fehlerklassen": {
+            "flag_falsch": 8
+          }
+        },
+        {
+          "id": "SYN-011",
+          "layout": "fliesstext",
+          "gold": 8,
+          "extrahiert": 8,
+          "felder": {
+            "analyt": {
+              "tp": 8,
+              "fp": 0,
+              "fn": 0,
+              "precision": 1.0,
+              "recall": 1.0
+            },
+            "wert": {
+              "tp": 8,
+              "fp": 0,
+              "fn": 0,
+              "precision": 1.0,
+              "recall": 1.0
+            },
+            "einheit": {
+              "tp": 8,
+              "fp": 0,
+              "fn": 0,
+              "precision": 1.0,
+              "recall": 1.0
+            },
+            "referenz": {
+              "tp": 8,
+              "fp": 0,
+              "fn": 0,
+              "precision": 1.0,
+              "recall": 1.0
+            },
+            "flag": {
+              "tp": 8,
+              "fp": 0,
+              "fn": 0,
+              "precision": 1.0,
+              "recall": 1.0
+            },
+            "seite": {
+              "tp": 8,
+              "fp": 0,
+              "fn": 0,
+              "precision": 1.0,
+              "recall": 1.0
+            },
+            "wert_einheit_exact": {
+              "tp": 8,
+              "fp": 0,
+              "fn": 0,
+              "precision": 1.0,
+              "recall": 1.0
+            }
+          },
+          "normalisierung": {
+            "loinc": {
+              "tp": 8,
+              "fp": 0,
+              "fn": 0,
+              "precision": 1.0,
+              "recall": 1.0
+            },
+            "ziel_einheit": {
+              "tp": 8,
+              "fp": 0,
+              "fn": 0,
+              "precision": 1.0,
+              "recall": 1.0
+            }
+          },
+          "fehlerklassen": {}
+        },
+        {
+          "id": "SYN-012",
+          "layout": "zweispaltig",
+          "gold": 8,
+          "extrahiert": 8,
+          "felder": {
+            "analyt": {
+              "tp": 8,
+              "fp": 0,
+              "fn": 0,
+              "precision": 1.0,
+              "recall": 1.0
+            },
+            "wert": {
+              "tp": 8,
+              "fp": 0,
+              "fn": 0,
+              "precision": 1.0,
+              "recall": 1.0
+            },
+            "einheit": {
+              "tp": 8,
+              "fp": 0,
+              "fn": 0,
+              "precision": 1.0,
+              "recall": 1.0
+            },
+            "referenz": {
+              "tp": 8,
+              "fp": 0,
+              "fn": 0,
+              "precision": 1.0,
+              "recall": 1.0
+            },
+            "flag": {
+              "tp": 7,
+              "fp": 1,
+              "fn": 1,
+              "precision": 0.875,
+              "recall": 0.875
+            },
+            "seite": {
+              "tp": 8,
+              "fp": 0,
+              "fn": 0,
+              "precision": 1.0,
+              "recall": 1.0
+            },
+            "wert_einheit_exact": {
+              "tp": 8,
+              "fp": 0,
+              "fn": 0,
+              "precision": 1.0,
+              "recall": 1.0
+            }
+          },
+          "normalisierung": {
+            "loinc": {
+              "tp": 8,
+              "fp": 0,
+              "fn": 0,
+              "precision": 1.0,
+              "recall": 1.0
+            },
+            "ziel_einheit": {
+              "tp": 8,
+              "fp": 0,
+              "fn": 0,
+              "precision": 1.0,
+              "recall": 1.0
+            }
+          },
+          "fehlerklassen": {
+            "flag_falsch": 1
+          }
+        },
+        {
+          "id": "SYN-013",
+          "layout": "tabelle",
+          "gold": 8,
+          "extrahiert": 8,
+          "felder": {
+            "analyt": {
+              "tp": 8,
+              "fp": 0,
+              "fn": 0,
+              "precision": 1.0,
+              "recall": 1.0
+            },
+            "wert": {
+              "tp": 8,
+              "fp": 0,
+              "fn": 0,
+              "precision": 1.0,
+              "recall": 1.0
+            },
+            "einheit": {
+              "tp": 8,
+              "fp": 0,
+              "fn": 0,
+              "precision": 1.0,
+              "recall": 1.0
+            },
+            "referenz": {
+              "tp": 8,
+              "fp": 0,
+              "fn": 0,
+              "precision": 1.0,
+              "recall": 1.0
+            },
+            "flag": {
+              "tp": 8,
+              "fp": 0,
+              "fn": 0,
+              "precision": 1.0,
+              "recall": 1.0
+            },
+            "seite": {
+              "tp": 8,
+              "fp": 0,
+              "fn": 0,
+              "precision": 1.0,
+              "recall": 1.0
+            },
+            "wert_einheit_exact": {
+              "tp": 8,
+              "fp": 0,
+              "fn": 0,
+              "precision": 1.0,
+              "recall": 1.0
+            }
+          },
+          "normalisierung": {
+            "loinc": {
+              "tp": 8,
+              "fp": 0,
+              "fn": 0,
+              "precision": 1.0,
+              "recall": 1.0
+            },
+            "ziel_einheit": {
+              "tp": 8,
+              "fp": 0,
+              "fn": 0,
+              "precision": 1.0,
+              "recall": 1.0
+            }
+          },
+          "fehlerklassen": {}
+        },
+        {
+          "id": "SYN-014",
+          "layout": "fliesstext",
+          "gold": 8,
+          "extrahiert": 8,
+          "felder": {
+            "analyt": {
+              "tp": 8,
+              "fp": 0,
+              "fn": 0,
+              "precision": 1.0,
+              "recall": 1.0
+            },
+            "wert": {
+              "tp": 8,
+              "fp": 0,
+              "fn": 0,
+              "precision": 1.0,
+              "recall": 1.0
+            },
+            "einheit": {
+              "tp": 8,
+              "fp": 0,
+              "fn": 0,
+              "precision": 1.0,
+              "recall": 1.0
+            },
+            "referenz": {
+              "tp": 8,
+              "fp": 0,
+              "fn": 0,
+              "precision": 1.0,
+              "recall": 1.0
+            },
+            "flag": {
+              "tp": 8,
+              "fp": 0,
+              "fn": 0,
+              "precision": 1.0,
+              "recall": 1.0
+            },
+            "seite": {
+              "tp": 8,
+              "fp": 0,
+              "fn": 0,
+              "precision": 1.0,
+              "recall": 1.0
+            },
+            "wert_einheit_exact": {
+              "tp": 8,
+              "fp": 0,
+              "fn": 0,
+              "precision": 1.0,
+              "recall": 1.0
+            }
+          },
+          "normalisierung": {
+            "loinc": {
+              "tp": 8,
+              "fp": 0,
+              "fn": 0,
+              "precision": 1.0,
+              "recall": 1.0
+            },
+            "ziel_einheit": {
+              "tp": 8,
+              "fp": 0,
+              "fn": 0,
+              "precision": 1.0,
+              "recall": 1.0
+            }
+          },
+          "fehlerklassen": {}
+        },
+        {
+          "id": "SYN-015",
+          "layout": "zweispaltig",
+          "gold": 8,
+          "extrahiert": 8,
+          "felder": {
+            "analyt": {
+              "tp": 8,
+              "fp": 0,
+              "fn": 0,
+              "precision": 1.0,
+              "recall": 1.0
+            },
+            "wert": {
+              "tp": 8,
+              "fp": 0,
+              "fn": 0,
+              "precision": 1.0,
+              "recall": 1.0
+            },
+            "einheit": {
+              "tp": 8,
+              "fp": 0,
+              "fn": 0,
+              "precision": 1.0,
+              "recall": 1.0
+            },
+            "referenz": {
+              "tp": 8,
+              "fp": 0,
+              "fn": 0,
+              "precision": 1.0,
+              "recall": 1.0
+            },
+            "flag": {
+              "tp": 8,
+              "fp": 0,
+              "fn": 0,
+              "precision": 1.0,
+              "recall": 1.0
+            },
+            "seite": {
+              "tp": 8,
+              "fp": 0,
+              "fn": 0,
+              "precision": 1.0,
+              "recall": 1.0
+            },
+            "wert_einheit_exact": {
+              "tp": 8,
+              "fp": 0,
+              "fn": 0,
+              "precision": 1.0,
+              "recall": 1.0
+            }
+          },
+          "normalisierung": {
+            "loinc": {
+              "tp": 8,
+              "fp": 0,
+              "fn": 0,
+              "precision": 1.0,
+              "recall": 1.0
+            },
+            "ziel_einheit": {
+              "tp": 8,
+              "fp": 0,
+              "fn": 0,
+              "precision": 1.0,
+              "recall": 1.0
+            }
+          },
+          "fehlerklassen": {}
+        },
+        {
+          "id": "SYN-016",
+          "layout": "tabelle",
+          "gold": 8,
+          "extrahiert": 8,
+          "felder": {
+            "analyt": {
+              "tp": 8,
+              "fp": 0,
+              "fn": 0,
+              "precision": 1.0,
+              "recall": 1.0
+            },
+            "wert": {
+              "tp": 8,
+              "fp": 0,
+              "fn": 0,
+              "precision": 1.0,
+              "recall": 1.0
+            },
+            "einheit": {
+              "tp": 8,
+              "fp": 0,
+              "fn": 0,
+              "precision": 1.0,
+              "recall": 1.0
+            },
+            "referenz": {
+              "tp": 8,
+              "fp": 0,
+              "fn": 0,
+              "precision": 1.0,
+              "recall": 1.0
+            },
+            "flag": {
+              "tp": 8,
+              "fp": 0,
+              "fn": 0,
+              "precision": 1.0,
+              "recall": 1.0
+            },
+            "seite": {
+              "tp": 8,
+              "fp": 0,
+              "fn": 0,
+              "precision": 1.0,
+              "recall": 1.0
+            },
+            "wert_einheit_exact": {
+              "tp": 8,
+              "fp": 0,
+              "fn": 0,
+              "precision": 1.0,
+              "recall": 1.0
+            }
+          },
+          "normalisierung": {
+            "loinc": {
+              "tp": 8,
+              "fp": 0,
+              "fn": 0,
+              "precision": 1.0,
+              "recall": 1.0
+            },
+            "ziel_einheit": {
+              "tp": 8,
+              "fp": 0,
+              "fn": 0,
+              "precision": 1.0,
+              "recall": 1.0
+            }
+          },
+          "fehlerklassen": {}
+        },
+        {
+          "id": "SYN-017",
+          "layout": "fliesstext",
+          "gold": 8,
+          "extrahiert": 8,
+          "felder": {
+            "analyt": {
+              "tp": 8,
+              "fp": 0,
+              "fn": 0,
+              "precision": 1.0,
+              "recall": 1.0
+            },
+            "wert": {
+              "tp": 8,
+              "fp": 0,
+              "fn": 0,
+              "precision": 1.0,
+              "recall": 1.0
+            },
+            "einheit": {
+              "tp": 8,
+              "fp": 0,
+              "fn": 0,
+              "precision": 1.0,
+              "recall": 1.0
+            },
+            "referenz": {
+              "tp": 8,
+              "fp": 0,
+              "fn": 0,
+              "precision": 1.0,
+              "recall": 1.0
+            },
+            "flag": {
+              "tp": 8,
+              "fp": 0,
+              "fn": 0,
+              "precision": 1.0,
+              "recall": 1.0
+            },
+            "seite": {
+              "tp": 8,
+              "fp": 0,
+              "fn": 0,
+              "precision": 1.0,
+              "recall": 1.0
+            },
+            "wert_einheit_exact": {
+              "tp": 8,
+              "fp": 0,
+              "fn": 0,
+              "precision": 1.0,
+              "recall": 1.0
+            }
+          },
+          "normalisierung": {
+            "loinc": {
+              "tp": 8,
+              "fp": 0,
+              "fn": 0,
+              "precision": 1.0,
+              "recall": 1.0
+            },
+            "ziel_einheit": {
+              "tp": 8,
+              "fp": 0,
+              "fn": 0,
+              "precision": 1.0,
+              "recall": 1.0
+            }
+          },
+          "fehlerklassen": {}
+        },
+        {
+          "id": "SYN-018",
+          "layout": "zweispaltig",
+          "gold": 8,
+          "extrahiert": 8,
+          "felder": {
+            "analyt": {
+              "tp": 8,
+              "fp": 0,
+              "fn": 0,
+              "precision": 1.0,
+              "recall": 1.0
+            },
+            "wert": {
+              "tp": 8,
+              "fp": 0,
+              "fn": 0,
+              "precision": 1.0,
+              "recall": 1.0
+            },
+            "einheit": {
+              "tp": 8,
+              "fp": 0,
+              "fn": 0,
+              "precision": 1.0,
+              "recall": 1.0
+            },
+            "referenz": {
+              "tp": 8,
+              "fp": 0,
+              "fn": 0,
+              "precision": 1.0,
+              "recall": 1.0
+            },
+            "flag": {
+              "tp": 7,
+              "fp": 1,
+              "fn": 1,
+              "precision": 0.875,
+              "recall": 0.875
+            },
+            "seite": {
+              "tp": 8,
+              "fp": 0,
+              "fn": 0,
+              "precision": 1.0,
+              "recall": 1.0
+            },
+            "wert_einheit_exact": {
+              "tp": 8,
+              "fp": 0,
+              "fn": 0,
+              "precision": 1.0,
+              "recall": 1.0
+            }
+          },
+          "normalisierung": {
+            "loinc": {
+              "tp": 8,
+              "fp": 0,
+              "fn": 0,
+              "precision": 1.0,
+              "recall": 1.0
+            },
+            "ziel_einheit": {
+              "tp": 8,
+              "fp": 0,
+              "fn": 0,
+              "precision": 1.0,
+              "recall": 1.0
+            }
+          },
+          "fehlerklassen": {
+            "flag_falsch": 1
+          }
+        }
+      ]
+    },
+    "scan_ocr_llm": {
+      "befunde": 3,
+      "gesamt": {
+        "felder": {
+          "analyt": {
+            "tp": 24,
+            "fp": 0,
+            "fn": 0,
+            "precision": 1.0,
+            "recall": 1.0
+          },
+          "wert": {
+            "tp": 24,
+            "fp": 0,
+            "fn": 0,
+            "precision": 1.0,
+            "recall": 1.0
+          },
+          "einheit": {
+            "tp": 24,
+            "fp": 0,
+            "fn": 0,
+            "precision": 1.0,
+            "recall": 1.0
+          },
+          "referenz": {
+            "tp": 24,
+            "fp": 0,
+            "fn": 0,
+            "precision": 1.0,
+            "recall": 1.0
+          },
+          "flag": {
+            "tp": 24,
+            "fp": 0,
+            "fn": 0,
+            "precision": 1.0,
+            "recall": 1.0
+          },
+          "seite": {
+            "tp": 24,
+            "fp": 0,
+            "fn": 0,
+            "precision": 1.0,
+            "recall": 1.0
+          },
+          "wert_einheit_exact": {
+            "tp": 24,
+            "fp": 0,
+            "fn": 0,
+            "precision": 1.0,
+            "recall": 1.0
+          }
+        },
+        "normalisierung": {
+          "loinc": {
+            "tp": 24,
+            "fp": 0,
+            "fn": 0,
+            "precision": 1.0,
+            "recall": 1.0
+          },
+          "ziel_einheit": {
+            "tp": 24,
+            "fp": 0,
+            "fn": 0,
+            "precision": 1.0,
+            "recall": 1.0
+          }
+        },
+        "fehlerklassen": {}
+      },
+      "pro_befund": [
+        {
+          "id": "SYN-004",
+          "layout": "tabelle",
+          "gold": 8,
+          "extrahiert": 8,
+          "felder": {
+            "analyt": {
+              "tp": 8,
+              "fp": 0,
+              "fn": 0,
+              "precision": 1.0,
+              "recall": 1.0
+            },
+            "wert": {
+              "tp": 8,
+              "fp": 0,
+              "fn": 0,
+              "precision": 1.0,
+              "recall": 1.0
+            },
+            "einheit": {
+              "tp": 8,
+              "fp": 0,
+              "fn": 0,
+              "precision": 1.0,
+              "recall": 1.0
+            },
+            "referenz": {
+              "tp": 8,
+              "fp": 0,
+              "fn": 0,
+              "precision": 1.0,
+              "recall": 1.0
+            },
+            "flag": {
+              "tp": 8,
+              "fp": 0,
+              "fn": 0,
+              "precision": 1.0,
+              "recall": 1.0
+            },
+            "seite": {
+              "tp": 8,
+              "fp": 0,
+              "fn": 0,
+              "precision": 1.0,
+              "recall": 1.0
+            },
+            "wert_einheit_exact": {
+              "tp": 8,
+              "fp": 0,
+              "fn": 0,
+              "precision": 1.0,
+              "recall": 1.0
+            }
+          },
+          "normalisierung": {
+            "loinc": {
+              "tp": 8,
+              "fp": 0,
+              "fn": 0,
+              "precision": 1.0,
+              "recall": 1.0
+            },
+            "ziel_einheit": {
+              "tp": 8,
+              "fp": 0,
+              "fn": 0,
+              "precision": 1.0,
+              "recall": 1.0
+            }
+          },
+          "fehlerklassen": {}
+        },
+        {
+          "id": "SYN-011",
+          "layout": "fliesstext",
+          "gold": 8,
+          "extrahiert": 8,
+          "felder": {
+            "analyt": {
+              "tp": 8,
+              "fp": 0,
+              "fn": 0,
+              "precision": 1.0,
+              "recall": 1.0
+            },
+            "wert": {
+              "tp": 8,
+              "fp": 0,
+              "fn": 0,
+              "precision": 1.0,
+              "recall": 1.0
+            },
+            "einheit": {
+              "tp": 8,
+              "fp": 0,
+              "fn": 0,
+              "precision": 1.0,
+              "recall": 1.0
+            },
+            "referenz": {
+              "tp": 8,
+              "fp": 0,
+              "fn": 0,
+              "precision": 1.0,
+              "recall": 1.0
+            },
+            "flag": {
+              "tp": 8,
+              "fp": 0,
+              "fn": 0,
+              "precision": 1.0,
+              "recall": 1.0
+            },
+            "seite": {
+              "tp": 8,
+              "fp": 0,
+              "fn": 0,
+              "precision": 1.0,
+              "recall": 1.0
+            },
+            "wert_einheit_exact": {
+              "tp": 8,
+              "fp": 0,
+              "fn": 0,
+              "precision": 1.0,
+              "recall": 1.0
+            }
+          },
+          "normalisierung": {
+            "loinc": {
+              "tp": 8,
+              "fp": 0,
+              "fn": 0,
+              "precision": 1.0,
+              "recall": 1.0
+            },
+            "ziel_einheit": {
+              "tp": 8,
+              "fp": 0,
+              "fn": 0,
+              "precision": 1.0,
+              "recall": 1.0
+            }
+          },
+          "fehlerklassen": {}
+        },
+        {
+          "id": "SYN-017",
+          "layout": "fliesstext",
+          "gold": 8,
+          "extrahiert": 8,
+          "felder": {
+            "analyt": {
+              "tp": 8,
+              "fp": 0,
+              "fn": 0,
+              "precision": 1.0,
+              "recall": 1.0
+            },
+            "wert": {
+              "tp": 8,
+              "fp": 0,
+              "fn": 0,
+              "precision": 1.0,
+              "recall": 1.0
+            },
+            "einheit": {
+              "tp": 8,
+              "fp": 0,
+              "fn": 0,
+              "precision": 1.0,
+              "recall": 1.0
+            },
+            "referenz": {
+              "tp": 8,
+              "fp": 0,
+              "fn": 0,
+              "precision": 1.0,
+              "recall": 1.0
+            },
+            "flag": {
+              "tp": 8,
+              "fp": 0,
+              "fn": 0,
+              "precision": 1.0,
+              "recall": 1.0
+            },
+            "seite": {
+              "tp": 8,
+              "fp": 0,
+              "fn": 0,
+              "precision": 1.0,
+              "recall": 1.0
+            },
+            "wert_einheit_exact": {
+              "tp": 8,
+              "fp": 0,
+              "fn": 0,
+              "precision": 1.0,
+              "recall": 1.0
+            }
+          },
+          "normalisierung": {
+            "loinc": {
+              "tp": 8,
+              "fp": 0,
+              "fn": 0,
+              "precision": 1.0,
+              "recall": 1.0
+            },
+            "ziel_einheit": {
+              "tp": 8,
+              "fp": 0,
+              "fn": 0,
+              "precision": 1.0,
+              "recall": 1.0
+            }
+          },
+          "fehlerklassen": {}
+        }
+      ]
+    },
+    "scan_vision_llm": {
+      "befunde": 3,
+      "gesamt": {
+        "felder": {
+          "analyt": {
+            "tp": 23,
+            "fp": 1,
+            "fn": 1,
+            "precision": 0.9583,
+            "recall": 0.9583
+          },
+          "wert": {
+            "tp": 23,
+            "fp": 1,
+            "fn": 1,
+            "precision": 0.9583,
+            "recall": 0.9583
+          },
+          "einheit": {
+            "tp": 21,
+            "fp": 3,
+            "fn": 3,
+            "precision": 0.875,
+            "recall": 0.875
+          },
+          "referenz": {
+            "tp": 22,
+            "fp": 2,
+            "fn": 2,
+            "precision": 0.9167,
+            "recall": 0.9167
+          },
+          "flag": {
+            "tp": 23,
+            "fp": 1,
+            "fn": 1,
+            "precision": 0.9583,
+            "recall": 0.9583
+          },
+          "seite": {
+            "tp": 23,
+            "fp": 1,
+            "fn": 1,
+            "precision": 0.9583,
+            "recall": 0.9583
+          },
+          "wert_einheit_exact": {
+            "tp": 21,
+            "fp": 3,
+            "fn": 3,
+            "precision": 0.875,
+            "recall": 0.875
+          }
+        },
+        "normalisierung": {
+          "loinc": {
+            "tp": 23,
+            "fp": 1,
+            "fn": 1,
+            "precision": 0.9583,
+            "recall": 0.9583
+          },
+          "ziel_einheit": {
+            "tp": 23,
+            "fp": 1,
+            "fn": 1,
+            "precision": 0.9583,
+            "recall": 0.9583
+          }
+        },
+        "fehlerklassen": {
+          "wert_fehlt": 1,
+          "wert_zusaetzlich": 1,
+          "einheit_falsch": 2,
+          "referenz_falsch": 1,
+          "wert_einheit_exact_falsch": 2
+        }
+      },
+      "pro_befund": [
+        {
+          "id": "SYN-004",
+          "layout": "tabelle",
+          "gold": 8,
+          "extrahiert": 8,
+          "felder": {
+            "analyt": {
+              "tp": 7,
+              "fp": 1,
+              "fn": 1,
+              "precision": 0.875,
+              "recall": 0.875
+            },
+            "wert": {
+              "tp": 7,
+              "fp": 1,
+              "fn": 1,
+              "precision": 0.875,
+              "recall": 0.875
+            },
+            "einheit": {
+              "tp": 7,
+              "fp": 1,
+              "fn": 1,
+              "precision": 0.875,
+              "recall": 0.875
+            },
+            "referenz": {
+              "tp": 7,
+              "fp": 1,
+              "fn": 1,
+              "precision": 0.875,
+              "recall": 0.875
+            },
+            "flag": {
+              "tp": 7,
+              "fp": 1,
+              "fn": 1,
+              "precision": 0.875,
+              "recall": 0.875
+            },
+            "seite": {
+              "tp": 7,
+              "fp": 1,
+              "fn": 1,
+              "precision": 0.875,
+              "recall": 0.875
+            },
+            "wert_einheit_exact": {
+              "tp": 7,
+              "fp": 1,
+              "fn": 1,
+              "precision": 0.875,
+              "recall": 0.875
+            }
+          },
+          "normalisierung": {
+            "loinc": {
+              "tp": 7,
+              "fp": 1,
+              "fn": 1,
+              "precision": 0.875,
+              "recall": 0.875
+            },
+            "ziel_einheit": {
+              "tp": 7,
+              "fp": 1,
+              "fn": 1,
+              "precision": 0.875,
+              "recall": 0.875
+            }
+          },
+          "fehlerklassen": {
+            "wert_fehlt": 1,
+            "wert_zusaetzlich": 1
+          }
+        },
+        {
+          "id": "SYN-011",
+          "layout": "fliesstext",
+          "gold": 8,
+          "extrahiert": 8,
+          "felder": {
+            "analyt": {
+              "tp": 8,
+              "fp": 0,
+              "fn": 0,
+              "precision": 1.0,
+              "recall": 1.0
+            },
+            "wert": {
+              "tp": 8,
+              "fp": 0,
+              "fn": 0,
+              "precision": 1.0,
+              "recall": 1.0
+            },
+            "einheit": {
+              "tp": 7,
+              "fp": 1,
+              "fn": 1,
+              "precision": 0.875,
+              "recall": 0.875
+            },
+            "referenz": {
+              "tp": 7,
+              "fp": 1,
+              "fn": 1,
+              "precision": 0.875,
+              "recall": 0.875
+            },
+            "flag": {
+              "tp": 8,
+              "fp": 0,
+              "fn": 0,
+              "precision": 1.0,
+              "recall": 1.0
+            },
+            "seite": {
+              "tp": 8,
+              "fp": 0,
+              "fn": 0,
+              "precision": 1.0,
+              "recall": 1.0
+            },
+            "wert_einheit_exact": {
+              "tp": 7,
+              "fp": 1,
+              "fn": 1,
+              "precision": 0.875,
+              "recall": 0.875
+            }
+          },
+          "normalisierung": {
+            "loinc": {
+              "tp": 8,
+              "fp": 0,
+              "fn": 0,
+              "precision": 1.0,
+              "recall": 1.0
+            },
+            "ziel_einheit": {
+              "tp": 8,
+              "fp": 0,
+              "fn": 0,
+              "precision": 1.0,
+              "recall": 1.0
+            }
+          },
+          "fehlerklassen": {
+            "einheit_falsch": 1,
+            "referenz_falsch": 1,
+            "wert_einheit_exact_falsch": 1
+          }
+        },
+        {
+          "id": "SYN-017",
+          "layout": "fliesstext",
+          "gold": 8,
+          "extrahiert": 8,
+          "felder": {
+            "analyt": {
+              "tp": 8,
+              "fp": 0,
+              "fn": 0,
+              "precision": 1.0,
+              "recall": 1.0
+            },
+            "wert": {
+              "tp": 8,
+              "fp": 0,
+              "fn": 0,
+              "precision": 1.0,
+              "recall": 1.0
+            },
+            "einheit": {
+              "tp": 7,
+              "fp": 1,
+              "fn": 1,
+              "precision": 0.875,
+              "recall": 0.875
+            },
+            "referenz": {
+              "tp": 8,
+              "fp": 0,
+              "fn": 0,
+              "precision": 1.0,
+              "recall": 1.0
+            },
+            "flag": {
+              "tp": 8,
+              "fp": 0,
+              "fn": 0,
+              "precision": 1.0,
+              "recall": 1.0
+            },
+            "seite": {
+              "tp": 8,
+              "fp": 0,
+              "fn": 0,
+              "precision": 1.0,
+              "recall": 1.0
+            },
+            "wert_einheit_exact": {
+              "tp": 7,
+              "fp": 1,
+              "fn": 1,
+              "precision": 0.875,
+              "recall": 0.875
+            }
+          },
+          "normalisierung": {
+            "loinc": {
+              "tp": 8,
+              "fp": 0,
+              "fn": 0,
+              "precision": 1.0,
+              "recall": 1.0
+            },
+            "ziel_einheit": {
+              "tp": 8,
+              "fp": 0,
+              "fn": 0,
+              "precision": 1.0,
+              "recall": 1.0
+            }
+          },
+          "fehlerklassen": {
+            "einheit_falsch": 1,
+            "wert_einheit_exact_falsch": 1
+          }
+        }
+      ]
+    }
+  },
+  "fehleranalyse": {
+    "regel_text_pdf": {
+      "wert_fehlt": 27,
+      "wert_zusaetzlich": 27
+    },
+    "llm_structured_text": {},
+    "llm_structured_alt_model": {
+      "flag_falsch": 18
+    },
+    "scan_ocr_llm": {},
+    "scan_vision_llm": {
+      "wert_fehlt": 1,
+      "wert_zusaetzlich": 1,
+      "einheit_falsch": 2,
+      "referenz_falsch": 1,
+      "wert_einheit_exact_falsch": 2
+    }
+  },
+  "lauf_fehler": {
+    "regel_text_pdf": [],
+    "llm_structured_text": [],
+    "llm_structured_alt_model": [],
+    "scan_ocr_llm": [],
+    "scan_vision_llm": []
+  },
+  "nicht_evaluiert": {
+    "regel_text_pdf": [],
+    "llm_structured_text": [],
+    "llm_structured_alt_model": [],
+    "scan_ocr_llm": [],
+    "scan_vision_llm": []
+  }
+}

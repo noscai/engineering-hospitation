@@ -1,0 +1,227 @@
+{
+  "laborwerte": [
+    {
+      "befund_index": null,
+      "ergebnis_id": null,
+      "test_ident": null,
+      "analyt": "Krea",
+      "wert": "1,4",
+      "einheit": "mg/dl",
+      "einheitensystem": null,
+      "referenzen": [
+        {
+          "spezifikation": null,
+          "untergrenze": "0.6",
+          "obergrenze": "1.2",
+          "untergrenze_einheit": "mg/dl",
+          "obergrenze_einheit": "mg/dl",
+          "text": [],
+          "flag": "+"
+        }
+      ],
+      "ergebnisstatus": null,
+      "quelle": "PDF",
+      "seite": 1,
+      "confidence": 0.95,
+      "begruendung": "Krea: 1,4 mg/dl. Referenz: 0.6 bis 1.2 mg/dl. Flag: +.",
+      "zeile": null,
+      "objektpfad": null
+    },
+    {
+      "befund_index": null,
+      "ergebnis_id": null,
+      "test_ident": null,
+      "analyt": "Glukose",
+      "wert": "5,3",
+      "einheit": "mmol/l",
+      "einheitensystem": null,
+      "referenzen": [
+        {
+          "spezifikation": null,
+          "untergrenze": "3.9",
+          "obergrenze": "5.6",
+          "untergrenze_einheit": "mmol/l",
+          "obergrenze_einheit": "mmol/l",
+          "text": [],
+          "flag": "N"
+        }
+      ],
+      "ergebnisstatus": null,
+      "quelle": "PDF",
+      "seite": 1,
+      "confidence": 0.95,
+      "begruendung": "Glukose: 5,3 mmol/l. Referenz: 3.9 bis 5.6 mmol/l. Flag: N.",
+      "zeile": null,
+      "objektpfad": null
+    },
+    {
+      "befund_index": null,
+      "ergebnis_id": null,
+      "test_ident": null,
+      "analyt": "HbA1c",
+      "wert": "5,4",
+      "einheit": "%",
+      "einheitensystem": null,
+      "referenzen": [
+        {
+          "spezifikation": null,
+          "untergrenze": null,
+          "obergrenze": null,
+          "untergrenze_einheit": null,
+          "obergrenze_einheit": null,
+          "text": [
+            "nicht angegeben"
+          ],
+          "flag": "N"
+        }
+      ],
+      "ergebnisstatus": null,
+      "quelle": "PDF",
+      "seite": 1,
+      "confidence": 0.95,
+      "begruendung": "HbA1c: 5,4 %. Referenz: nicht angegeben. Flag: N.",
+      "zeile": null,
+      "objektpfad": null
+    },
+    {
+      "befund_index": null,
+      "ergebnis_id": null,
+      "test_ident": null,
+      "analyt": "ALT",
+      "wert": "10,0",
+      "einheit": "U/l",
+      "einheitensystem": null,
+      "referenzen": [
+        {
+          "spezifikation": null,
+          "untergrenze": "10",
+          "obergrenze": "50",
+          "untergrenze_einheit": "U/l",
+          "obergrenze_einheit": "U/l",
+          "text": [],
+          "flag": "N"
+        }
+      ],
+      "ergebnisstatus": null,
+      "quelle": "PDF",
+      "seite": 1,
+      "confidence": 0.95,
+      "begruendung": "ALT: 10,0 U/l. Referenz: 10 bis 50 U/l. Flag: N.",
+      "zeile": null,
+      "objektpfad": null
+    },
+    {
+      "befund_index": null,
+      "ergebnis_id": null,
+      "test_ident": null,
+      "analyt": "Na",
+      "wert": "134,0",
+      "einheit": "mmol/l",
+      "einheitensystem": null,
+      "referenzen": [
+        {
+          "spezifikation": null,
+          "untergrenze": "135",
+          "obergrenze": "145",
+          "untergrenze_einheit": "mmol/l",
+          "obergrenze_einheit": "mmol/l",
+          "text": [],
+          "flag": "L"
+        }
+      ],
+      "ergebnisstatus": null,
+      "quelle": "PDF",
+      "seite": 1,
+      "confidence": 0.95,
+      "begruendung": "Na: 134,0 mmol/l. Referenz: 135 bis 145 mmol/l. Flag: L.",
+      "zeile": null,
+      "objektpfad": null
+    },
+    {
+      "befund_index": null,
+      "ergebnis_id": null,
+      "test_ident": null,
+      "analyt": "Kalium",
+      "wert": "5,6",
+      "einheit": "mmol/l",
+      "einheitensystem": null,
+      "referenzen": [
+        {
+          "spezifikation": null,
+          "untergrenze": "3.5",
+          "obergrenze": "5.1",
+          "untergrenze_einheit": "mmol/l",
+          "obergrenze_einheit": "mmol/l",
+          "text": [],
+          "flag": "+"
+        }
+      ],
+      "ergebnisstatus": null,
+      "quelle": "PDF",
+      "seite": 1,
+      "confidence": 0.95,
+      "begruendung": "Kalium: 5,6 mmol/l. Referenz: 3.5 bis 5.1 mmol/l. Flag: +.",
+      "zeile": null,
+      "objektpfad": null
+    },
+    {
+      "befund_index": null,
+      "ergebnis_id": null,
+      "test_ident": null,
+      "analyt": "CRP",
+      "wert": "<0,5",
+      "einheit": "mg/l",
+      "einheitensystem": null,
+      "referenzen": [
+        {
+          "spezifikation": null,
+          "untergrenze": "0",
+          "obergrenze": "5",
+          "untergrenze_einheit": "mg/l",
+          "obergrenze_einheit": "mg/l",
+          "text": [],
+          "flag": "N"
+        }
+      ],
+      "ergebnisstatus": null,
+      "quelle": "PDF",
+      "seite": 1,
+      "confidence": 0.95,
+      "begruendung": "CRP: <0,5 mg/l. Referenz: 0 bis 5 mg/l. Flag: N.",
+      "zeile": null,
+      "objektpfad": null
+    },
+    {
+      "befund_index": null,
+      "ergebnis_id": null,
+      "test_ident": null,
+      "analyt": "Thyreotropin",
+      "wert": "1,5",
+      "einheit": "mU/l",
+      "einheitensystem": null,
+      "referenzen": [
+        {
+          "spezifikation": null,
+          "untergrenze": null,
+          "obergrenze": null,
+          "untergrenze_einheit": null,
+          "obergrenze_einheit": null,
+          "text": [
+            "nicht angegeben"
+          ],
+          "flag": "N"
+        }
+      ],
+      "ergebnisstatus": null,
+      "quelle": "PDF",
+      "seite": 1,
+      "confidence": 0.95,
+      "begruendung": "Thyreotropin: 1,5 mU/l. Referenz: nicht angegeben. Flag: N.",
+      "zeile": null,
+      "objektpfad": null
+    }
+  ],
+  "hinweise": [
+    "Das Beispiel 'Glukose 999 mg/dl' im Schulungstext wurde ignoriert, da es ausdrücklich als KEIN Messwert dieses Befunds markiert ist."
+  ]
+}

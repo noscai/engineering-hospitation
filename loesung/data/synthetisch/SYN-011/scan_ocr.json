@@ -1,0 +1,9 @@
+{
+  "methode": "synthetische_ocr_simulation",
+  "seiten": [
+    {
+      "seite": 1,
+      "text": "Laborbefund SYN-011 OCR\nFiktiver Scantext\nKreatinin: 90.1 µmol/l. Referenz: 53 bis 106 µmol/l. Flag: N.\nGlucose: 67.0 mg/dl. Referenz: 70 bis 100 mg/dl. Flag: L.\nHämoglobin A1c: 23.8 mmol/mol. Referenz: 20 bis 39 mmol/mol. Flag: N.\nGPT: 42.0 U/l. Referenz: 10 bis 50 U/l. Flag: N.\nNatrium: 143.0 mmol/l. Referenz: nicht angegeben. Flag: N.\nK: 4.3 mmol/l. Referenz: 3.5 bis 5.1 mmol/l. Flag: N.\nC-reaktives Protein: 2.5 mg/l. Referenz: 0 bis 5 mg/l. Flag: N.\nTSH: 1.5 mU/l. Referenz: 0.4 bis 4.0 mU/l. Flag: N.\nGlukose 999 mg/dl ist KEIN Messwert dieses Befunds."
+    }
+  ]
+}

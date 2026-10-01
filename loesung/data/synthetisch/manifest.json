@@ -1,0 +1,187 @@
+{
+  "seed": 20260928,
+  "anzahl": 18,
+  "scan_simulationen": 3,
+  "befunde": [
+    {
+      "id": "SYN-001",
+      "layout": "tabelle",
+      "seiten": 1,
+      "fehler": [],
+      "sha256_pdf": "29f1d0da6ef235784e94afdb0bcd2df5d2ab2c8c3a11485bed48b2f6b75d0e44",
+      "sha256_ldt": "0195b22db9033f654290e7f0c8a3b5ca7031c22200885b6972959f6d46a63b5b"
+    },
+    {
+      "id": "SYN-002",
+      "layout": "fliesstext",
+      "seiten": 1,
+      "fehler": [],
+      "sha256_pdf": "180ee3ff010cc6201e1df90fd9891dae521b2989cad2b2934ec74a2af2db6c13",
+      "sha256_ldt": "ed6c0249e989f5fd80cf8c4a7850d6717ca6fdeb8de0efd8003ecdc17100d10a"
+    },
+    {
+      "id": "SYN-003",
+      "layout": "zweispaltig",
+      "seiten": 1,
+      "fehler": [],
+      "sha256_pdf": "1722859cd251e3b17fe5db34f25e8925cb925bc7a9b17c30185d7e74270188a8",
+      "sha256_ldt": "00c08f7274ea625f677bd347af75df035ab2cc34942f3efbae85e80573ec9abd"
+    },
+    {
+      "id": "SYN-004",
+      "layout": "tabelle",
+      "seiten": 1,
+      "fehler": [],
+      "sha256_pdf": "11de09c92323e329fe182ed7e2b0146bdd1d73f230553ac082af4f86c710e5c4",
+      "sha256_ldt": "0c649f9f827f14c4f6605fa24c91098f19fd56256061807a14297521edd36db7",
+      "scan_pdf": {
+        "datei": "befund_scan.pdf",
+        "rotation_grad": -1.6,
+        "rauschen_pixel": 2800,
+        "sha256": "bcc4f91130708c1faa9af5afbd89b512f7f9862d4666707d8d06ecdfe1b1d013"
+      }
+    },
+    {
+      "id": "SYN-005",
+      "layout": "fliesstext",
+      "seiten": 1,
+      "fehler": [],
+      "sha256_pdf": "c7afb4f2841f8a88812b2f226362266fd65f39e2c09889603326c2621801ca0a",
+      "sha256_ldt": "6bdff039ada38ab25cb504f5b43b0b4bfb208e2e41344a354c5ddccc3a070cbd"
+    },
+    {
+      "id": "SYN-006",
+      "layout": "zweispaltig",
+      "seiten": 2,
+      "fehler": [],
+      "sha256_pdf": "760cc4c93261a34c751d987c832d83aaa4389d2b58357c6a84f504cd26c31b20",
+      "sha256_ldt": "425a706cce9f567eda2d5477c10b08c8596b0c750827fc64df9eb3dea6c00946"
+    },
+    {
+      "id": "SYN-007",
+      "layout": "tabelle",
+      "seiten": 1,
+      "fehler": [],
+      "sha256_pdf": "f23862f9f21040183f17b013bf52bf102ed1406acc2ab34edc12951eb9e29442",
+      "sha256_ldt": "b3eef957959493ad2800a2c9b9b9a8f90f58c888bb75d11f02fc76b234c7c79c"
+    },
+    {
+      "id": "SYN-008",
+      "layout": "fliesstext",
+      "seiten": 1,
+      "fehler": [],
+      "sha256_pdf": "498d14ac18f7ecf3d8e3a50639604286a3cd882815e6e3da9de791fa6989fddb",
+      "sha256_ldt": "233b0cf4ef1aa03c1997a23955e36c1c903796bd533c158d8c1fbe62953c26e1"
+    },
+    {
+      "id": "SYN-009",
+      "layout": "zweispaltig",
+      "seiten": 1,
+      "fehler": [],
+      "sha256_pdf": "64d33e3510806aa282bad0f57370bed0aa56766bb2cf99c8130b23307d33f868",
+      "sha256_ldt": "601d39df0f9a78d85927f68a9efab35e19a391d71a6b8801369345fed104f8a1"
+    },
+    {
+      "id": "SYN-010",
+      "layout": "tabelle",
+      "seiten": 1,
+      "fehler": [],
+      "sha256_pdf": "8e4c65772f49cff3dd501e0419a879158f7b170bab22dd47b633696c9e0c55ab",
+      "sha256_ldt": "c3bb7dafea2376ed536c036cff236e1515995eac22d4ee6268b8064a068506c9"
+    },
+    {
+      "id": "SYN-011",
+      "layout": "fliesstext",
+      "seiten": 1,
+      "fehler": [],
+      "sha256_pdf": "c5a97eab00073b3529c6f90dad26200688a69fb3de851f821472fe70b47b2893",
+      "sha256_ldt": "4617d7da49493312381c3eddb78d9db06d021f2cec775f0bb5e8076d7fbf8d0f",
+      "scan_pdf": {
+        "datei": "befund_scan.pdf",
+        "rotation_grad": 1.2,
+        "rauschen_pixel": 2800,
+        "sha256": "877fdf04e79ac7a5e69d793b185cbf0c5138bc60e02c47e767a5cc81ccf89fc1"
+      }
+    },
+    {
+      "id": "SYN-012",
+      "layout": "zweispaltig",
+      "seiten": 2,
+      "fehler": [],
+      "sha256_pdf": "47da27b8ae0a1cf2a9a2ec4d6ce69542de82d8f322f00ba599f0744eee3279d6",
+      "sha256_ldt": "db79db9b9f548b066903dbaba53a39ce7ccaeed385814527752e5b0cab3445ca"
+    },
+    {
+      "id": "SYN-013",
+      "layout": "tabelle",
+      "seiten": 1,
+      "fehler": [],
+      "sha256_pdf": "ee1a70fb0134a2fcfe5f26d3e96d2ec00a5df7c1068757a9dbfc5c1188078270",
+      "sha256_ldt": "ed48ce7004c907e092f2d3f2c34f9e5d58440965fa150b8084e265964f867c00"
+    },
+    {
+      "id": "SYN-014",
+      "layout": "fliesstext",
+      "seiten": 1,
+      "fehler": [],
+      "sha256_pdf": "d53d6c861b62da837443246694563b890c6ed46f0cee582f11ec642f4fb4c52c",
+      "sha256_ldt": "83b8d45f71a97a67776181d0362a524fa3300a02af6ee383eaed84926db3e445"
+    },
+    {
+      "id": "SYN-015",
+      "layout": "zweispaltig",
+      "seiten": 1,
+      "fehler": [],
+      "sha256_pdf": "6563b04df0fa02dbdba2493ca9455d4b7ea286d2b9496bb8e09309c21787484b",
+      "sha256_ldt": "1424f245efaaabc966727e92e1e29dd8ff23c17327cd065af634dc064ecb74bf"
+    },
+    {
+      "id": "SYN-016",
+      "layout": "tabelle",
+      "seiten": 1,
+      "fehler": [
+        {
+          "typ": "fehlende_einheit",
+          "ergebnis_id": "SYN-016-E01",
+          "regel": "K002"
+        }
+      ],
+      "sha256_pdf": "8f7694c0327813c6037b0aa0dc1681d09a50096e4f2da18567f9e887aa9a1f4e",
+      "sha256_ldt": "9c42df5a3eb9a0df549505b6006943dff10933630e975c328fa9bbebe43adc23"
+    },
+    {
+      "id": "SYN-017",
+      "layout": "fliesstext",
+      "seiten": 1,
+      "fehler": [
+        {
+          "typ": "flag_an_falscher_stelle",
+          "ergebnis_id": "SYN-017-E01",
+          "regel": "FELDPOSITION"
+        }
+      ],
+      "sha256_pdf": "d390ec1f3ed55565f91f8d0d9dac511f5a18ad7131f75fb396fa15ae5490bd61",
+      "sha256_ldt": "b8dd0b74616955edc8b1bb639ee009f5e33373ee22188e8a1587035a7640c6bd",
+      "scan_pdf": {
+        "datei": "befund_scan.pdf",
+        "rotation_grad": -0.9,
+        "rauschen_pixel": 2800,
+        "sha256": "ae59ee595bb19985876f4831a73b92404f87b274bf74413424b151b7a29dee4b"
+      }
+    },
+    {
+      "id": "SYN-018",
+      "layout": "zweispaltig",
+      "seiten": 2,
+      "fehler": [
+        {
+          "typ": "doppelte_ergebnis_id",
+          "ergebnis_id": "SYN-018-E01",
+          "regel": "VORKOMMEN"
+        }
+      ],
+      "sha256_pdf": "3a6bbebce4abf5a362dfef49b29ec047d1aa1700eb6d0f72028c06502e2b47b5",
+      "sha256_ldt": "86ef4199d8f3b3350a4a54c16fc6104ab835dc6f77b1faf32b2df7334c91968f"
+    }
+  ]
+}

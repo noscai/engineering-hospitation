@@ -1,0 +1,138 @@
+{
+  "id": "SYN-018",
+  "synthetisch": true,
+  "seed": 20260928,
+  "ldt_version": "LDT3.2.15",
+  "datum": "20260928",
+  "patient": {
+    "nachname": "Musterpatient-018",
+    "vorname": "Synthetisch",
+    "geburt": "19800101"
+  },
+  "layout": "zweispaltig",
+  "seiten": 2,
+  "kommentar": "Nur synthetische Testdaten. Beispiel im Schulungstext: Glukose 999 mg/dl ist KEIN Messwert dieses Befunds.",
+  "laborwerte": [
+    {
+      "ergebnis_id": "SYN-018-E01",
+      "analyt_kanonisch": "Kreatinin",
+      "test_ident": "Krea",
+      "analyt": "Krea",
+      "wert": "0,7",
+      "einheit": "mg/dl",
+      "referenz": {
+        "untergrenze": "0.6",
+        "obergrenze": "1.2"
+      },
+      "flag": "N",
+      "material": "Serum",
+      "seite": 1
+    },
+    {
+      "ergebnis_id": "SYN-018-E02",
+      "analyt_kanonisch": "Glukose",
+      "test_ident": "Glukose",
+      "analyt": "Glukose",
+      "wert": "5,8",
+      "einheit": "mmol/l",
+      "referenz": {
+        "untergrenze": "3.9",
+        "obergrenze": "5.6"
+      },
+      "flag": "+",
+      "material": "Serum",
+      "seite": 1
+    },
+    {
+      "ergebnis_id": "SYN-018-E03",
+      "analyt_kanonisch": "HbA1c",
+      "test_ident": "HbA1c",
+      "analyt": "HbA1c",
+      "wert": "5,4",
+      "einheit": "%",
+      "referenz": null,
+      "flag": "N",
+      "material": "EDTA-Blut",
+      "seite": 1
+    },
+    {
+      "ergebnis_id": "SYN-018-E04",
+      "analyt_kanonisch": "ALT",
+      "test_ident": "ALT",
+      "analyt": "ALT",
+      "wert": "42,0",
+      "einheit": "U/l",
+      "referenz": {
+        "untergrenze": "10",
+        "obergrenze": "50"
+      },
+      "flag": "N",
+      "material": "Serum",
+      "seite": 1
+    },
+    {
+      "ergebnis_id": "SYN-018-E05",
+      "analyt_kanonisch": "Natrium",
+      "test_ident": "Na",
+      "analyt": "Na",
+      "wert": "138,0",
+      "einheit": "mmol/l",
+      "referenz": {
+        "untergrenze": "135",
+        "obergrenze": "145"
+      },
+      "flag": "N",
+      "material": "Serum",
+      "seite": 2
+    },
+    {
+      "ergebnis_id": "SYN-018-E06",
+      "analyt_kanonisch": "Kalium",
+      "test_ident": "Kalium",
+      "analyt": "Kalium",
+      "wert": "3,8",
+      "einheit": "mmol/l",
+      "referenz": {
+        "untergrenze": "3.5",
+        "obergrenze": "5.1"
+      },
+      "flag": "N",
+      "material": "Serum",
+      "seite": 2
+    },
+    {
+      "ergebnis_id": "SYN-018-E07",
+      "analyt_kanonisch": "CRP",
+      "test_ident": "CRP",
+      "analyt": "CRP",
+      "wert": "<0,5",
+      "einheit": "mg/l",
+      "referenz": {
+        "untergrenze": "0",
+        "obergrenze": "5"
+      },
+      "flag": "N",
+      "material": "Serum",
+      "seite": 2
+    },
+    {
+      "ergebnis_id": "SYN-018-E08",
+      "analyt_kanonisch": "TSH",
+      "test_ident": "Thyreotropin",
+      "analyt": "Thyreotropin",
+      "wert": ">10,0",
+      "einheit": "mU/l",
+      "referenz": null,
+      "flag": "H",
+      "material": "Serum",
+      "seite": 2
+    }
+  ],
+  "absichtliche_fehler": [
+    {
+      "typ": "doppelte_ergebnis_id",
+      "ergebnis_id": "SYN-018-E01",
+      "regel": "VORKOMMEN"
+    }
+  ]
+}

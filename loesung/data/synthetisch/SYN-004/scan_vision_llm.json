@@ -1,0 +1,228 @@
+{
+  "laborwerte": [
+    {
+      "befund_index": null,
+      "ergebnis_id": null,
+      "test_ident": null,
+      "analyt": "Krea",
+      "wert": "1,0",
+      "einheit": "mg/dl",
+      "einheitensystem": null,
+      "referenzen": [
+        {
+          "spezifikation": null,
+          "untergrenze": "0,6",
+          "obergrenze": "1,2",
+          "untergrenze_einheit": "mg/dl",
+          "obergrenze_einheit": "mg/dl",
+          "text": [],
+          "flag": "N"
+        }
+      ],
+      "ergebnisstatus": null,
+      "quelle": "PDF",
+      "seite": 1,
+      "confidence": 0.95,
+      "begruendung": "Klar erkennbarer Laborwert mit Referenzbereich",
+      "zeile": null,
+      "objektpfad": null
+    },
+    {
+      "befund_index": null,
+      "ergebnis_id": null,
+      "test_ident": null,
+      "analyt": "Glukose",
+      "wert": "5,1",
+      "einheit": "mmol/l",
+      "einheitensystem": null,
+      "referenzen": [
+        {
+          "spezifikation": null,
+          "untergrenze": null,
+          "obergrenze": null,
+          "untergrenze_einheit": null,
+          "obergrenze_einheit": null,
+          "text": [
+            "Ref k.A."
+          ],
+          "flag": "N"
+        }
+      ],
+      "ergebnisstatus": null,
+      "quelle": "PDF",
+      "seite": 1,
+      "confidence": 0.95,
+      "begruendung": "Klar erkennbarer Laborwert, Referenz nicht verfügbar",
+      "zeile": null,
+      "objektpfad": null
+    },
+    {
+      "befund_index": null,
+      "ergebnis_id": null,
+      "test_ident": null,
+      "analyt": "HbA1c",
+      "wert": "4,3",
+      "einheit": "%",
+      "einheitensystem": null,
+      "referenzen": [
+        {
+          "spezifikation": null,
+          "untergrenze": "4,0",
+          "obergrenze": "5,7",
+          "untergrenze_einheit": "%",
+          "obergrenze_einheit": "%",
+          "text": [],
+          "flag": "N"
+        }
+      ],
+      "ergebnisstatus": null,
+      "quelle": "PDF",
+      "seite": 1,
+      "confidence": 0.95,
+      "begruendung": "Klar erkennbarer Laborwert mit Referenzbereich",
+      "zeile": null,
+      "objektpfad": null
+    },
+    {
+      "befund_index": null,
+      "ergebnis_id": null,
+      "test_ident": null,
+      "analyt": "ALT",
+      "wert": "22,0",
+      "einheit": "U/l",
+      "einheitensystem": null,
+      "referenzen": [
+        {
+          "spezifikation": null,
+          "untergrenze": "10",
+          "obergrenze": "50",
+          "untergrenze_einheit": "U/l",
+          "obergrenze_einheit": "U/l",
+          "text": [],
+          "flag": "N"
+        }
+      ],
+      "ergebnisstatus": null,
+      "quelle": "PDF",
+      "seite": 1,
+      "confidence": 0.95,
+      "begruendung": "Klar erkennbarer Laborwert mit Referenzbereich",
+      "zeile": null,
+      "objektpfad": null
+    },
+    {
+      "befund_index": null,
+      "ergebnis_id": null,
+      "test_ident": null,
+      "analyt": "Na",
+      "wert": "137,0",
+      "einheit": "mmol/l",
+      "einheitensystem": null,
+      "referenzen": [
+        {
+          "spezifikation": null,
+          "untergrenze": "135",
+          "obergrenze": "145",
+          "untergrenze_einheit": "mmol/l",
+          "obergrenze_einheit": "mmol/l",
+          "text": [],
+          "flag": "N"
+        }
+      ],
+      "ergebnisstatus": null,
+      "quelle": "PDF",
+      "seite": 1,
+      "confidence": 0.95,
+      "begruendung": "Klar erkennbarer Laborwert mit Referenzbereich",
+      "zeile": null,
+      "objektpfad": null
+    },
+    {
+      "befund_index": null,
+      "ergebnis_id": null,
+      "test_ident": null,
+      "analyt": "Kalium",
+      "wert": "4,1",
+      "einheit": "mmol/l",
+      "einheitensystem": null,
+      "referenzen": [
+        {
+          "spezifikation": null,
+          "untergrenze": "3,5",
+          "obergrenze": "5,1",
+          "untergrenze_einheit": "mmol/l",
+          "obergrenze_einheit": "mmol/l",
+          "text": [],
+          "flag": "N"
+        }
+      ],
+      "ergebnisstatus": null,
+      "quelle": "PDF",
+      "seite": 1,
+      "confidence": 0.95,
+      "begruendung": "Klar erkennbarer Laborwert mit Referenzbereich",
+      "zeile": null,
+      "objektpfad": null
+    },
+    {
+      "befund_index": null,
+      "ergebnis_id": null,
+      "test_ident": null,
+      "analyt": "CRP",
+      "wert": "<0,5",
+      "einheit": "mg/l",
+      "einheitensystem": null,
+      "referenzen": [
+        {
+          "spezifikation": null,
+          "untergrenze": null,
+          "obergrenze": null,
+          "untergrenze_einheit": null,
+          "obergrenze_einheit": null,
+          "text": [
+            "Ref k.A."
+          ],
+          "flag": "N"
+        }
+      ],
+      "ergebnisstatus": null,
+      "quelle": "PDF",
+      "seite": 1,
+      "confidence": 0.95,
+      "begruendung": "Klar erkennbarer Laborwert mit < Zeichen, Referenz nicht verfügbar",
+      "zeile": null,
+      "objektpfad": null
+    },
+    {
+      "befund_index": null,
+      "ergebnis_id": null,
+      "test_ident": null,
+      "analyt": "Thyreoidgin",
+      "wert": "1,8",
+      "einheit": "mU/l",
+      "einheitensystem": null,
+      "referenzen": [
+        {
+          "spezifikation": null,
+          "untergrenze": "0,4",
+          "obergrenze": "4,0",
+          "untergrenze_einheit": "mU/l",
+          "obergrenze_einheit": "mU/l",
+          "text": [],
+          "flag": "N"
+        }
+      ],
+      "ergebnisstatus": null,
+      "quelle": "PDF",
+      "seite": 1,
+      "confidence": 0.9,
+      "begruendung": "Laborwert erkennbar, Analytname könnte auch TSH sein",
+      "zeile": null,
+      "objektpfad": null
+    }
+  ],
+  "hinweise": [
+    "Am unteren Rand des Dokuments steht ein Hinweis zu Glukose (950 mg/dl als Schädigungsgrenze), dies ist jedoch ein allgemeiner Hinweis und kein Messwert",
+    "Alle Flag-Werte sind als 'N' (normal) angegeben"
+  ]
+}

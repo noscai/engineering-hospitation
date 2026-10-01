@@ -1,0 +1,223 @@
+{
+  "laborwerte": [
+    {
+      "befund_index": null,
+      "ergebnis_id": null,
+      "test_ident": null,
+      "analyt": "Krea",
+      "wert": "0,8",
+      "einheit": "mg/dl",
+      "einheitensystem": null,
+      "referenzen": [
+        {
+          "spezifikation": null,
+          "untergrenze": "0.6",
+          "obergrenze": "1.2",
+          "untergrenze_einheit": "mg/dl",
+          "obergrenze_einheit": "mg/dl",
+          "text": [],
+          "flag": "N"
+        }
+      ],
+      "ergebnisstatus": null,
+      "quelle": "PDF",
+      "seite": 1,
+      "confidence": null,
+      "begruendung": null,
+      "zeile": null,
+      "objektpfad": null
+    },
+    {
+      "befund_index": null,
+      "ergebnis_id": null,
+      "test_ident": null,
+      "analyt": "Glukose",
+      "wert": "3,4",
+      "einheit": "mmol/l",
+      "einheitensystem": null,
+      "referenzen": [
+        {
+          "spezifikation": null,
+          "untergrenze": "3.9",
+          "obergrenze": "5.6",
+          "untergrenze_einheit": "mmol/l",
+          "obergrenze_einheit": "mmol/l",
+          "text": [],
+          "flag": "L"
+        }
+      ],
+      "ergebnisstatus": null,
+      "quelle": "PDF",
+      "seite": 1,
+      "confidence": null,
+      "begruendung": null,
+      "zeile": null,
+      "objektpfad": null
+    },
+    {
+      "befund_index": null,
+      "ergebnis_id": null,
+      "test_ident": null,
+      "analyt": "HbA1c",
+      "wert": "4,5",
+      "einheit": "%",
+      "einheitensystem": null,
+      "referenzen": [
+        {
+          "spezifikation": null,
+          "untergrenze": "4.0",
+          "obergrenze": "5.7",
+          "untergrenze_einheit": "%",
+          "obergrenze_einheit": "%",
+          "text": [],
+          "flag": "N"
+        }
+      ],
+      "ergebnisstatus": null,
+      "quelle": "PDF",
+      "seite": 1,
+      "confidence": null,
+      "begruendung": null,
+      "zeile": null,
+      "objektpfad": null
+    },
+    {
+      "befund_index": null,
+      "ergebnis_id": null,
+      "test_ident": null,
+      "analyt": "ALT",
+      "wert": "66,0",
+      "einheit": "U/l",
+      "einheitensystem": null,
+      "referenzen": [
+        {
+          "spezifikation": null,
+          "untergrenze": null,
+          "obergrenze": null,
+          "untergrenze_einheit": null,
+          "obergrenze_einheit": null,
+          "text": [
+            "nicht angegeben"
+          ],
+          "flag": null
+        }
+      ],
+      "ergebnisstatus": null,
+      "quelle": "PDF",
+      "seite": 1,
+      "confidence": null,
+      "begruendung": null,
+      "zeile": null,
+      "objektpfad": null
+    },
+    {
+      "befund_index": null,
+      "ergebnis_id": null,
+      "test_ident": null,
+      "analyt": "Na",
+      "wert": "145,0",
+      "einheit": "mmol/l",
+      "einheitensystem": null,
+      "referenzen": [
+        {
+          "spezifikation": null,
+          "untergrenze": "135",
+          "obergrenze": "145",
+          "untergrenze_einheit": "mmol/l",
+          "obergrenze_einheit": "mmol/l",
+          "text": [],
+          "flag": "N"
+        }
+      ],
+      "ergebnisstatus": null,
+      "quelle": "PDF",
+      "seite": 2,
+      "confidence": null,
+      "begruendung": null,
+      "zeile": null,
+      "objektpfad": null
+    },
+    {
+      "befund_index": null,
+      "ergebnis_id": null,
+      "test_ident": null,
+      "analyt": "Kalium",
+      "wert": "4,3",
+      "einheit": "mmol/l",
+      "einheitensystem": null,
+      "referenzen": [
+        {
+          "spezifikation": null,
+          "untergrenze": "3.5",
+          "obergrenze": "5.1",
+          "untergrenze_einheit": "mmol/l",
+          "obergrenze_einheit": "mmol/l",
+          "text": [],
+          "flag": "N"
+        }
+      ],
+      "ergebnisstatus": null,
+      "quelle": "PDF",
+      "seite": 2,
+      "confidence": null,
+      "begruendung": null,
+      "zeile": null,
+      "objektpfad": null
+    },
+    {
+      "befund_index": null,
+      "ergebnis_id": null,
+      "test_ident": null,
+      "analyt": "CRP",
+      "wert": "<0,5",
+      "einheit": "mg/l",
+      "einheitensystem": null,
+      "referenzen": [
+        {
+          "spezifikation": null,
+          "untergrenze": "0",
+          "obergrenze": "5",
+          "untergrenze_einheit": "mg/l",
+          "obergrenze_einheit": "mg/l",
+          "text": [],
+          "flag": "N"
+        }
+      ],
+      "ergebnisstatus": null,
+      "quelle": "PDF",
+      "seite": 2,
+      "confidence": null,
+      "begruendung": null,
+      "zeile": null,
+      "objektpfad": null
+    },
+    {
+      "befund_index": null,
+      "ergebnis_id": null,
+      "test_ident": null,
+      "analyt": "Thyreotropin",
+      "wert": ">10,0",
+      "einheit": "mU/l",
+      "einheitensystem": null,
+      "referenzen": [
+        {
+          "spezifikation": null,
+          "untergrenze": "0.4",
+          "obergrenze": "4.0",
+          "untergrenze_einheit": "mU/l",
+          "obergrenze_einheit": "mU/l",
+          "text": [],
+          "flag": "H"
+        }
+      ],
+      "ergebnisstatus": null,
+      "quelle": "PDF",
+      "seite": 2,
+      "confidence": null,
+      "begruendung": null,
+      "zeile": null,
+      "objektpfad": null
+    }
+  ],
+  "hinweise": []
+}

@@ -1,0 +1,37 @@
+{
+  "versionen": [
+    "LDT3.2.19"
+  ],
+  "laborwerte": [],
+  "anhaenge": [],
+  "validierung": {
+    "meldungen": [
+      {
+        "zeilennummer": 1,
+        "objektpfad": "Dokument",
+        "feldkennung": "0001",
+        "regel": "VERSION",
+        "beschreibung": "Deklarierte Version fehlt oder weicht von LDT3.2.15 ab; Regeln nur vergleichend angewendet.",
+        "schwere": "Prüfhinweis"
+      }
+    ],
+    "ungepruefte_objekttypen": [
+      "Obj_0007",
+      "Obj_0014",
+      "Obj_0031",
+      "Obj_0034",
+      "Obj_0058",
+      "Obj_0062"
+    ],
+    "regelversion": "LDT3.2.15",
+    "vollstaendig": false
+  },
+  "hinweise": [
+    {
+      "zeile": 177,
+      "code": "ERGEBNISTYP_NICHT_UNTERSTUETZT",
+      "objekt": "Obj_0062"
+    }
+  ],
+  "review_erforderlich": true
+}

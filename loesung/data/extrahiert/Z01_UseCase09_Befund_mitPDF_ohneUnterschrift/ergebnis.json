@@ -1,0 +1,103 @@
+{
+  "versionen": [
+    "LDT3.2.19"
+  ],
+  "laborwerte": [
+    {
+      "befund_index": 1,
+      "ergebnis_id": "ErgebnisIDKC12345",
+      "test_ident": "HBs-Ag",
+      "analyt": "Hepatitis B Antigen",
+      "wert": "413.2",
+      "einheit": "Einheit",
+      "einheitensystem": "2",
+      "referenzen": [
+        {
+          "spezifikation": "20",
+          "untergrenze": "15.6",
+          "obergrenze": "210.0",
+          "untergrenze_einheit": "Einheit",
+          "obergrenze_einheit": "Einheit",
+          "text": [
+            "TextTextText"
+          ],
+          "flag": "++"
+        }
+      ],
+      "ergebnisstatus": "06",
+      "quelle": "LDT",
+      "seite": null,
+      "confidence": null,
+      "begruendung": "Deterministisch aus LDT-Feld 8420 gelesen.",
+      "zeile": 246,
+      "objektpfad": "8205/Obj_0035@236/Obj_0060@238"
+    },
+    {
+      "befund_index": 1,
+      "ergebnis_id": "ErgebnisIDKC12302",
+      "test_ident": "Qu",
+      "analyt": "Quick",
+      "wert": "5.65",
+      "einheit": "Einheit",
+      "einheitensystem": "2",
+      "referenzen": [
+        {
+          "spezifikation": "20",
+          "untergrenze": "14.25",
+          "obergrenze": "80.00",
+          "untergrenze_einheit": "Einheit",
+          "obergrenze_einheit": "Einheit",
+          "text": [
+            "TextTextText"
+          ],
+          "flag": "-"
+        }
+      ],
+      "ergebnisstatus": "06",
+      "quelle": "LDT",
+      "seite": null,
+      "confidence": null,
+      "begruendung": "Deterministisch aus LDT-Feld 8420 gelesen.",
+      "zeile": 305,
+      "objektpfad": "8205/Obj_0035@236/Obj_0060@297"
+    }
+  ],
+  "anhaenge": [
+    {
+      "nummer": 1,
+      "befund_index": 1,
+      "zeile": 363,
+      "format": "PDF",
+      "datei": "anhang_001.pdf",
+      "fehler": null,
+      "seiten": 1,
+      "sha256": "d27b8d00fcf28fd382cfa00bf8c75c4118b08c2c6710dffa6cb926ed75098a0b",
+      "bytes": 953600
+    }
+  ],
+  "validierung": {
+    "meldungen": [
+      {
+        "zeilennummer": 1,
+        "objektpfad": "Dokument",
+        "feldkennung": "0001",
+        "regel": "VERSION",
+        "beschreibung": "Deklarierte Version fehlt oder weicht von LDT3.2.15 ab; Regeln nur vergleichend angewendet.",
+        "schwere": "Prüfhinweis"
+      }
+    ],
+    "ungepruefte_objekttypen": [
+      "Obj_0007",
+      "Obj_0014",
+      "Obj_0026",
+      "Obj_0031",
+      "Obj_0058",
+      "Obj_0069",
+      "Obj_0070"
+    ],
+    "regelversion": "LDT3.2.15",
+    "vollstaendig": false
+  },
+  "hinweise": [],
+  "review_erforderlich": true
+}

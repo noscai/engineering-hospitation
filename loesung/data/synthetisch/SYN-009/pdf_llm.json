@@ -1,0 +1,227 @@
+{
+  "laborwerte": [
+    {
+      "befund_index": null,
+      "ergebnis_id": null,
+      "test_ident": null,
+      "analyt": "Kreatinin",
+      "wert": "127.2",
+      "einheit": "µmol/l",
+      "einheitensystem": null,
+      "referenzen": [
+        {
+          "spezifikation": null,
+          "untergrenze": "53",
+          "obergrenze": "106",
+          "untergrenze_einheit": "µmol/l",
+          "obergrenze_einheit": "µmol/l",
+          "text": [],
+          "flag": "H"
+        }
+      ],
+      "ergebnisstatus": null,
+      "quelle": "PDF",
+      "seite": 1,
+      "confidence": 0.95,
+      "begruendung": "Kreatinin: 127.2 µmol/l. Referenz: 53 bis 106 µmol/l. Flag: H.",
+      "zeile": null,
+      "objektpfad": null
+    },
+    {
+      "befund_index": null,
+      "ergebnis_id": null,
+      "test_ident": null,
+      "analyt": "Glucose",
+      "wert": "61.0",
+      "einheit": "mg/dl",
+      "einheitensystem": null,
+      "referenzen": [
+        {
+          "spezifikation": null,
+          "untergrenze": null,
+          "obergrenze": null,
+          "untergrenze_einheit": null,
+          "obergrenze_einheit": null,
+          "text": [
+            "nicht angegeben"
+          ],
+          "flag": "L"
+        }
+      ],
+      "ergebnisstatus": null,
+      "quelle": "PDF",
+      "seite": 1,
+      "confidence": 0.95,
+      "begruendung": "Glucose: 61.0 mg/dl. Referenz: nicht angegeben. Flag: L.",
+      "zeile": null,
+      "objektpfad": null
+    },
+    {
+      "befund_index": null,
+      "ergebnis_id": null,
+      "test_ident": null,
+      "analyt": "Hämoglobin A1c",
+      "wert": "29.5",
+      "einheit": "mmol/mol",
+      "einheitensystem": null,
+      "referenzen": [
+        {
+          "spezifikation": null,
+          "untergrenze": "20",
+          "obergrenze": "39",
+          "untergrenze_einheit": "mmol/mol",
+          "obergrenze_einheit": "mmol/mol",
+          "text": [],
+          "flag": "N"
+        }
+      ],
+      "ergebnisstatus": null,
+      "quelle": "PDF",
+      "seite": 1,
+      "confidence": 0.95,
+      "begruendung": "Hämoglobin A1c: 29.5 mmol/mol. Referenz: 20 bis 39 mmol/mol. Flag: N.",
+      "zeile": null,
+      "objektpfad": null
+    },
+    {
+      "befund_index": null,
+      "ergebnis_id": null,
+      "test_ident": null,
+      "analyt": "GPT",
+      "wert": "14.0",
+      "einheit": "U/l",
+      "einheitensystem": null,
+      "referenzen": [
+        {
+          "spezifikation": null,
+          "untergrenze": "10",
+          "obergrenze": "50",
+          "untergrenze_einheit": "U/l",
+          "obergrenze_einheit": "U/l",
+          "text": [],
+          "flag": "N"
+        }
+      ],
+      "ergebnisstatus": null,
+      "quelle": "PDF",
+      "seite": 1,
+      "confidence": 0.95,
+      "begruendung": "GPT: 14.0 U/l. Referenz: 10 bis 50 U/l. Flag: N.",
+      "zeile": null,
+      "objektpfad": null
+    },
+    {
+      "befund_index": null,
+      "ergebnis_id": null,
+      "test_ident": null,
+      "analyt": "Natrium",
+      "wert": "135.0",
+      "einheit": "mmol/l",
+      "einheitensystem": null,
+      "referenzen": [
+        {
+          "spezifikation": null,
+          "untergrenze": "135",
+          "obergrenze": "145",
+          "untergrenze_einheit": "mmol/l",
+          "obergrenze_einheit": "mmol/l",
+          "text": [],
+          "flag": "N"
+        }
+      ],
+      "ergebnisstatus": null,
+      "quelle": "PDF",
+      "seite": 1,
+      "confidence": 0.95,
+      "begruendung": "Natrium: 135.0 mmol/l. Referenz: 135 bis 145 mmol/l. Flag: N.",
+      "zeile": null,
+      "objektpfad": null
+    },
+    {
+      "befund_index": null,
+      "ergebnis_id": null,
+      "test_ident": null,
+      "analyt": "K",
+      "wert": "5.7",
+      "einheit": "mmol/l",
+      "einheitensystem": null,
+      "referenzen": [
+        {
+          "spezifikation": null,
+          "untergrenze": "3.5",
+          "obergrenze": "5.1",
+          "untergrenze_einheit": "mmol/l",
+          "obergrenze_einheit": "mmol/l",
+          "text": [],
+          "flag": "H"
+        }
+      ],
+      "ergebnisstatus": null,
+      "quelle": "PDF",
+      "seite": 1,
+      "confidence": 0.95,
+      "begruendung": "K: 5.7 mmol/l. Referenz: 3.5 bis 5.1 mmol/l. Flag: H.",
+      "zeile": null,
+      "objektpfad": null
+    },
+    {
+      "befund_index": null,
+      "ergebnis_id": null,
+      "test_ident": null,
+      "analyt": "C-reaktives Protein",
+      "wert": "5.5",
+      "einheit": "mg/l",
+      "einheitensystem": null,
+      "referenzen": [
+        {
+          "spezifikation": null,
+          "untergrenze": null,
+          "obergrenze": null,
+          "untergrenze_einheit": null,
+          "obergrenze_einheit": null,
+          "text": [
+            "nicht angegeben"
+          ],
+          "flag": "H"
+        }
+      ],
+      "ergebnisstatus": null,
+      "quelle": "PDF",
+      "seite": 1,
+      "confidence": 0.95,
+      "begruendung": "C-reaktives Protein: 5.5 mg/l. Referenz: nicht angegeben. Flag: H.",
+      "zeile": null,
+      "objektpfad": null
+    },
+    {
+      "befund_index": null,
+      "ergebnis_id": null,
+      "test_ident": null,
+      "analyt": "TSH",
+      "wert": ">10.0",
+      "einheit": "mU/l",
+      "einheitensystem": null,
+      "referenzen": [
+        {
+          "spezifikation": null,
+          "untergrenze": "0.4",
+          "obergrenze": "4.0",
+          "untergrenze_einheit": "mU/l",
+          "obergrenze_einheit": "mU/l",
+          "text": [],
+          "flag": "H"
+        }
+      ],
+      "ergebnisstatus": null,
+      "quelle": "PDF",
+      "seite": 1,
+      "confidence": 0.95,
+      "begruendung": "TSH: >10.0 mU/l. Referenz: 0.4 bis 4.0 mU/l. Flag: H.",
+      "zeile": null,
+      "objektpfad": null
+    }
+  ],
+  "hinweise": [
+    "Beispiel-Glukose 999 mg/dl wurde ignoriert, da explizit als nicht zu diesem Befund gehörend markiert"
+  ]
+}

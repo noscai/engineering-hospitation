@@ -1,0 +1,96 @@
+{
+  "versionen": [
+    "LDT3.2.19"
+  ],
+  "laborwerte": [
+    {
+      "befund_index": 1,
+      "ergebnis_id": "ErgebnisIDKC12345",
+      "test_ident": "GlucPL",
+      "analyt": "Glukose im Plasma",
+      "wert": "101",
+      "einheit": "mg/dl",
+      "einheitensystem": "2",
+      "referenzen": [
+        {
+          "spezifikation": "20",
+          "untergrenze": "60.0",
+          "obergrenze": "125.0",
+          "untergrenze_einheit": "mg/dl",
+          "obergrenze_einheit": "mg/dl",
+          "text": [],
+          "flag": "N"
+        }
+      ],
+      "ergebnisstatus": "06",
+      "quelle": "LDT",
+      "seite": null,
+      "confidence": null,
+      "begruendung": "Deterministisch aus LDT-Feld 8420 gelesen.",
+      "zeile": 184,
+      "objektpfad": "8205/Obj_0035@175/Obj_0060@177"
+    },
+    {
+      "befund_index": 1,
+      "ergebnis_id": "ErgebnisIDKC12345",
+      "test_ident": "GlucPL",
+      "analyt": "Glukose im Plasma",
+      "wert": "5.6",
+      "einheit": "mmol/l",
+      "einheitensystem": "1",
+      "referenzen": [
+        {
+          "spezifikation": "13",
+          "untergrenze": "3.3",
+          "obergrenze": "6.9",
+          "untergrenze_einheit": "mmol/l",
+          "obergrenze_einheit": "mmol/l",
+          "text": [],
+          "flag": "N"
+        }
+      ],
+      "ergebnisstatus": "06",
+      "quelle": "LDT",
+      "seite": null,
+      "confidence": null,
+      "begruendung": "Deterministisch aus LDT-Feld 8420 gelesen.",
+      "zeile": 205,
+      "objektpfad": "8205/Obj_0035@175/Obj_0060@177"
+    }
+  ],
+  "anhaenge": [
+    {
+      "nummer": 1,
+      "befund_index": 1,
+      "zeile": 248,
+      "format": "PDF",
+      "datei": "anhang_001.pdf",
+      "fehler": null,
+      "seiten": 1,
+      "sha256": "771264df689ef4522ad02c5875c96b8abf5b8cdfa391faae012426e302e5494d",
+      "bytes": 200969
+    }
+  ],
+  "validierung": {
+    "meldungen": [
+      {
+        "zeilennummer": 1,
+        "objektpfad": "Dokument",
+        "feldkennung": "0001",
+        "regel": "VERSION",
+        "beschreibung": "Deklarierte Version fehlt oder weicht von LDT3.2.15 ab; Regeln nur vergleichend angewendet.",
+        "schwere": "Prüfhinweis"
+      }
+    ],
+    "ungepruefte_objekttypen": [
+      "Obj_0007",
+      "Obj_0014",
+      "Obj_0031",
+      "Obj_0058"
+    ],
+    "regelversion": "LDT3.2.15",
+    "vollstaendig": false
+  },
+  "hinweise": [],
+  "review_erforderlich": true
+}

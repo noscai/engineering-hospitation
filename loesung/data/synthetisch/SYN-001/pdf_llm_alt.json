@@ -1,0 +1,223 @@
+{
+  "laborwerte": [
+    {
+      "befund_index": null,
+      "ergebnis_id": null,
+      "test_ident": null,
+      "analyt": "Kreatinin",
+      "wert": "127.2",
+      "einheit": "µmol/l",
+      "einheitensystem": null,
+      "referenzen": [
+        {
+          "spezifikation": null,
+          "untergrenze": "53",
+          "obergrenze": "106",
+          "untergrenze_einheit": null,
+          "obergrenze_einheit": null,
+          "text": [],
+          "flag": null
+        }
+      ],
+      "ergebnisstatus": "H",
+      "quelle": "PDF",
+      "seite": 1,
+      "confidence": null,
+      "begruendung": null,
+      "zeile": null,
+      "objektpfad": null
+    },
+    {
+      "befund_index": null,
+      "ergebnis_id": null,
+      "test_ident": null,
+      "analyt": "Glucose",
+      "wert": "85.0",
+      "einheit": "mg/dl",
+      "einheitensystem": null,
+      "referenzen": [
+        {
+          "spezifikation": null,
+          "untergrenze": "70",
+          "obergrenze": "100",
+          "untergrenze_einheit": null,
+          "obergrenze_einheit": null,
+          "text": [],
+          "flag": null
+        }
+      ],
+      "ergebnisstatus": "N",
+      "quelle": "PDF",
+      "seite": 1,
+      "confidence": null,
+      "begruendung": null,
+      "zeile": null,
+      "objektpfad": null
+    },
+    {
+      "befund_index": null,
+      "ergebnis_id": null,
+      "test_ident": null,
+      "analyt": "Hämoglobin A1c",
+      "wert": "16.2",
+      "einheit": "mmol/mol",
+      "einheitensystem": null,
+      "referenzen": [
+        {
+          "spezifikation": null,
+          "untergrenze": "20",
+          "obergrenze": "39",
+          "untergrenze_einheit": null,
+          "obergrenze_einheit": null,
+          "text": [],
+          "flag": null
+        }
+      ],
+      "ergebnisstatus": "L",
+      "quelle": "PDF",
+      "seite": 1,
+      "confidence": null,
+      "begruendung": null,
+      "zeile": null,
+      "objektpfad": null
+    },
+    {
+      "befund_index": null,
+      "ergebnis_id": null,
+      "test_ident": null,
+      "analyt": "GPT",
+      "wert": "22.0",
+      "einheit": "U/l",
+      "einheitensystem": null,
+      "referenzen": [
+        {
+          "spezifikation": null,
+          "untergrenze": "10",
+          "obergrenze": "50",
+          "untergrenze_einheit": null,
+          "obergrenze_einheit": null,
+          "text": [],
+          "flag": null
+        }
+      ],
+      "ergebnisstatus": "N",
+      "quelle": "PDF",
+      "seite": 1,
+      "confidence": null,
+      "begruendung": null,
+      "zeile": null,
+      "objektpfad": null
+    },
+    {
+      "befund_index": null,
+      "ergebnis_id": null,
+      "test_ident": null,
+      "analyt": "Natrium",
+      "wert": "135.0",
+      "einheit": "mmol/l",
+      "einheitensystem": null,
+      "referenzen": [
+        {
+          "spezifikation": null,
+          "untergrenze": null,
+          "obergrenze": null,
+          "untergrenze_einheit": null,
+          "obergrenze_einheit": null,
+          "text": [
+            "k.A."
+          ],
+          "flag": null
+        }
+      ],
+      "ergebnisstatus": "N",
+      "quelle": "PDF",
+      "seite": 1,
+      "confidence": null,
+      "begruendung": null,
+      "zeile": null,
+      "objektpfad": null
+    },
+    {
+      "befund_index": null,
+      "ergebnis_id": null,
+      "test_ident": null,
+      "analyt": "K",
+      "wert": "5.3",
+      "einheit": "mmol/l",
+      "einheitensystem": null,
+      "referenzen": [
+        {
+          "spezifikation": null,
+          "untergrenze": "3.5",
+          "obergrenze": "5.1",
+          "untergrenze_einheit": null,
+          "obergrenze_einheit": null,
+          "text": [],
+          "flag": null
+        }
+      ],
+      "ergebnisstatus": "H",
+      "quelle": "PDF",
+      "seite": 1,
+      "confidence": null,
+      "begruendung": null,
+      "zeile": null,
+      "objektpfad": null
+    },
+    {
+      "befund_index": null,
+      "ergebnis_id": null,
+      "test_ident": null,
+      "analyt": "C-reaktives Protein",
+      "wert": "4.0",
+      "einheit": "mg/l",
+      "einheitensystem": null,
+      "referenzen": [
+        {
+          "spezifikation": null,
+          "untergrenze": "0",
+          "obergrenze": "5",
+          "untergrenze_einheit": null,
+          "obergrenze_einheit": null,
+          "text": [],
+          "flag": null
+        }
+      ],
+      "ergebnisstatus": "N",
+      "quelle": "PDF",
+      "seite": 1,
+      "confidence": null,
+      "begruendung": null,
+      "zeile": null,
+      "objektpfad": null
+    },
+    {
+      "befund_index": null,
+      "ergebnis_id": null,
+      "test_ident": null,
+      "analyt": "TSH",
+      "wert": "1.5",
+      "einheit": "mU/l",
+      "einheitensystem": null,
+      "referenzen": [
+        {
+          "spezifikation": null,
+          "untergrenze": "0.4",
+          "obergrenze": "4.0",
+          "untergrenze_einheit": null,
+          "obergrenze_einheit": null,
+          "text": [],
+          "flag": null
+        }
+      ],
+      "ergebnisstatus": "N",
+      "quelle": "PDF",
+      "seite": 1,
+      "confidence": null,
+      "begruendung": null,
+      "zeile": null,
+      "objektpfad": null
+    }
+  ],
+  "hinweise": []
+}

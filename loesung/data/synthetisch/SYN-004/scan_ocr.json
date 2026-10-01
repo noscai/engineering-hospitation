@@ -1,0 +1,9 @@
+{
+  "methode": "synthetische_ocr_simulation",
+  "seiten": [
+    {
+      "seite": 1,
+      "text": "Laborbefund SYN-004 OCR\nFiktiver Scantext\nKrea: 1,0 mg/dl. Referenz: 0.6 bis 1.2 mg/dl. Flag: N.\nGlukose: 5,1 mmol/l. Referenz: nicht angegeben. Flag: N.\nHbA1c: 4,3 %. Referenz: 4.0 bis 5.7 %. Flag: N.\nALT: 22,0 U/l. Referenz: 10 bis 50 U/l. Flag: N.\nNa: 137,0 mmol/l. Referenz: 135 bis 145 mmol/l. Flag: N.\nKalium: 4,1 mmol/l. Referenz: 3.5 bis 5.1 mmol/l. Flag: N.\nCRP: <0,5 mg/l. Referenz: nicht angegeben. Flag: N.\nThyreotropin: 1,8 mU/l. Referenz: 0.4 bis 4.0 mU/l. Flag: N.\nGlukose 999 mg/dl ist KEIN Messwert dieses Befunds."
+    }
+  ]
+}

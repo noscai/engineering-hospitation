@@ -1,0 +1,246 @@
+{
+  "versionen": [
+    "LDT3.2.15"
+  ],
+  "laborwerte": [
+    {
+      "befund_index": 1,
+      "ergebnis_id": "SYN-001-E01",
+      "test_ident": "Kreatinin",
+      "analyt": "Kreatinin",
+      "wert": "127.2",
+      "einheit": "µmol/l",
+      "einheitensystem": "2",
+      "referenzen": [
+        {
+          "spezifikation": "20",
+          "untergrenze": "53",
+          "obergrenze": "106",
+          "untergrenze_einheit": "µmol/l",
+          "obergrenze_einheit": "µmol/l",
+          "text": [],
+          "flag": "H"
+        }
+      ],
+      "ergebnisstatus": "06",
+      "quelle": "LDT",
+      "seite": null,
+      "confidence": null,
+      "begruendung": "Deterministisch aus LDT-Feld 8420 gelesen.",
+      "zeile": 116,
+      "objektpfad": "8205/Obj_0035@107/Obj_0060@109"
+    },
+    {
+      "befund_index": 1,
+      "ergebnis_id": "SYN-001-E02",
+      "test_ident": "Glucose",
+      "analyt": "Glucose",
+      "wert": "85.0",
+      "einheit": "mg/dl",
+      "einheitensystem": "2",
+      "referenzen": [
+        {
+          "spezifikation": "20",
+          "untergrenze": "70",
+          "obergrenze": "100",
+          "untergrenze_einheit": "mg/dl",
+          "obergrenze_einheit": "mg/dl",
+          "text": [],
+          "flag": "N"
+        }
+      ],
+      "ergebnisstatus": "06",
+      "quelle": "LDT",
+      "seite": null,
+      "confidence": null,
+      "begruendung": "Deterministisch aus LDT-Feld 8420 gelesen.",
+      "zeile": 150,
+      "objektpfad": "8205/Obj_0035@107/Obj_0060@143"
+    },
+    {
+      "befund_index": 1,
+      "ergebnis_id": "SYN-001-E03",
+      "test_ident": "Hämoglobin A1c",
+      "analyt": "Hämoglobin A1c",
+      "wert": "16.2",
+      "einheit": "mmol/mol",
+      "einheitensystem": "2",
+      "referenzen": [
+        {
+          "spezifikation": "20",
+          "untergrenze": "20",
+          "obergrenze": "39",
+          "untergrenze_einheit": "mmol/mol",
+          "obergrenze_einheit": "mmol/mol",
+          "text": [],
+          "flag": "L"
+        }
+      ],
+      "ergebnisstatus": "06",
+      "quelle": "LDT",
+      "seite": null,
+      "confidence": null,
+      "begruendung": "Deterministisch aus LDT-Feld 8420 gelesen.",
+      "zeile": 184,
+      "objektpfad": "8205/Obj_0035@107/Obj_0060@177"
+    },
+    {
+      "befund_index": 1,
+      "ergebnis_id": "SYN-001-E04",
+      "test_ident": "GPT",
+      "analyt": "GPT",
+      "wert": "22.0",
+      "einheit": "U/l",
+      "einheitensystem": "2",
+      "referenzen": [
+        {
+          "spezifikation": "20",
+          "untergrenze": "10",
+          "obergrenze": "50",
+          "untergrenze_einheit": "U/l",
+          "obergrenze_einheit": "U/l",
+          "text": [],
+          "flag": "N"
+        }
+      ],
+      "ergebnisstatus": "06",
+      "quelle": "LDT",
+      "seite": null,
+      "confidence": null,
+      "begruendung": "Deterministisch aus LDT-Feld 8420 gelesen.",
+      "zeile": 218,
+      "objektpfad": "8205/Obj_0035@107/Obj_0060@211"
+    },
+    {
+      "befund_index": 1,
+      "ergebnis_id": "SYN-001-E05",
+      "test_ident": "Natrium",
+      "analyt": "Natrium",
+      "wert": "135.0",
+      "einheit": "mmol/l",
+      "einheitensystem": "2",
+      "referenzen": [
+        {
+          "spezifikation": "20",
+          "untergrenze": null,
+          "obergrenze": null,
+          "untergrenze_einheit": null,
+          "obergrenze_einheit": null,
+          "text": [
+            "k.A."
+          ],
+          "flag": "N"
+        }
+      ],
+      "ergebnisstatus": "06",
+      "quelle": "LDT",
+      "seite": null,
+      "confidence": null,
+      "begruendung": "Deterministisch aus LDT-Feld 8420 gelesen.",
+      "zeile": 252,
+      "objektpfad": "8205/Obj_0035@107/Obj_0060@245"
+    },
+    {
+      "befund_index": 1,
+      "ergebnis_id": "SYN-001-E06",
+      "test_ident": "K",
+      "analyt": "K",
+      "wert": "5.3",
+      "einheit": "mmol/l",
+      "einheitensystem": "2",
+      "referenzen": [
+        {
+          "spezifikation": "20",
+          "untergrenze": "3.5",
+          "obergrenze": "5.1",
+          "untergrenze_einheit": "mmol/l",
+          "obergrenze_einheit": "mmol/l",
+          "text": [],
+          "flag": "H"
+        }
+      ],
+      "ergebnisstatus": "06",
+      "quelle": "LDT",
+      "seite": null,
+      "confidence": null,
+      "begruendung": "Deterministisch aus LDT-Feld 8420 gelesen.",
+      "zeile": 281,
+      "objektpfad": "8205/Obj_0035@107/Obj_0060@274"
+    },
+    {
+      "befund_index": 1,
+      "ergebnis_id": "SYN-001-E07",
+      "test_ident": "C-reaktives Protein",
+      "analyt": "C-reaktives Protein",
+      "wert": "4.0",
+      "einheit": "mg/l",
+      "einheitensystem": "2",
+      "referenzen": [
+        {
+          "spezifikation": "20",
+          "untergrenze": "0",
+          "obergrenze": "5",
+          "untergrenze_einheit": "mg/l",
+          "obergrenze_einheit": "mg/l",
+          "text": [],
+          "flag": "N"
+        }
+      ],
+      "ergebnisstatus": "06",
+      "quelle": "LDT",
+      "seite": null,
+      "confidence": null,
+      "begruendung": "Deterministisch aus LDT-Feld 8420 gelesen.",
+      "zeile": 315,
+      "objektpfad": "8205/Obj_0035@107/Obj_0060@308"
+    },
+    {
+      "befund_index": 1,
+      "ergebnis_id": "SYN-001-E08",
+      "test_ident": "TSH",
+      "analyt": "TSH",
+      "wert": "1.5",
+      "einheit": "mU/l",
+      "einheitensystem": "2",
+      "referenzen": [
+        {
+          "spezifikation": "20",
+          "untergrenze": "0.4",
+          "obergrenze": "4.0",
+          "untergrenze_einheit": "mU/l",
+          "obergrenze_einheit": "mU/l",
+          "text": [],
+          "flag": "N"
+        }
+      ],
+      "ergebnisstatus": "06",
+      "quelle": "LDT",
+      "seite": null,
+      "confidence": null,
+      "begruendung": "Deterministisch aus LDT-Feld 8420 gelesen.",
+      "zeile": 349,
+      "objektpfad": "8205/Obj_0035@107/Obj_0060@342"
+    }
+  ],
+  "anhaenge": [
+    {
+      "nummer": 1,
+      "befund_index": 1,
+      "zeile": 387,
+      "format": "PDF",
+      "datei": "anhang_001.pdf",
+      "fehler": null,
+      "seiten": 1,
+      "sha256": "29f1d0da6ef235784e94afdb0bcd2df5d2ab2c8c3a11485bed48b2f6b75d0e44",
+      "bytes": 2492
+    }
+  ],
+  "validierung": {
+    "meldungen": [],
+    "ungepruefte_objekttypen": [],
+    "regelversion": "LDT3.2.15",
+    "vollstaendig": false
+  },
+  "hinweise": [],
+  "review_erforderlich": false
+}

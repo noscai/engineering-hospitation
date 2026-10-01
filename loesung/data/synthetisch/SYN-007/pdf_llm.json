@@ -1,0 +1,225 @@
+{
+  "laborwerte": [
+    {
+      "befund_index": null,
+      "ergebnis_id": null,
+      "test_ident": null,
+      "analyt": "Kreatinin",
+      "wert": "47.7",
+      "einheit": "µmol/l",
+      "einheitensystem": null,
+      "referenzen": [
+        {
+          "spezifikation": null,
+          "untergrenze": "53",
+          "obergrenze": "106",
+          "untergrenze_einheit": null,
+          "obergrenze_einheit": null,
+          "text": [],
+          "flag": "L"
+        }
+      ],
+      "ergebnisstatus": null,
+      "quelle": "PDF",
+      "seite": 1,
+      "confidence": 1.0,
+      "begruendung": "Wert aus tabellarischer Darstellung im Laborbefund",
+      "zeile": null,
+      "objektpfad": null
+    },
+    {
+      "befund_index": null,
+      "ergebnis_id": null,
+      "test_ident": null,
+      "analyt": "Glucose",
+      "wert": "94.0",
+      "einheit": "mg/dl",
+      "einheitensystem": null,
+      "referenzen": [
+        {
+          "spezifikation": null,
+          "untergrenze": "70",
+          "obergrenze": "100",
+          "untergrenze_einheit": null,
+          "obergrenze_einheit": null,
+          "text": [],
+          "flag": "N"
+        }
+      ],
+      "ergebnisstatus": null,
+      "quelle": "PDF",
+      "seite": 1,
+      "confidence": 1.0,
+      "begruendung": "Wert aus tabellarischer Darstellung im Laborbefund",
+      "zeile": null,
+      "objektpfad": null
+    },
+    {
+      "befund_index": null,
+      "ergebnis_id": null,
+      "test_ident": null,
+      "analyt": "Hämoglobin A1c",
+      "wert": "33.3",
+      "einheit": "mmol/mol",
+      "einheitensystem": null,
+      "referenzen": [
+        {
+          "spezifikation": null,
+          "untergrenze": "20",
+          "obergrenze": "39",
+          "untergrenze_einheit": null,
+          "obergrenze_einheit": null,
+          "text": [],
+          "flag": "N"
+        }
+      ],
+      "ergebnisstatus": null,
+      "quelle": "PDF",
+      "seite": 1,
+      "confidence": 1.0,
+      "begruendung": "Wert aus tabellarischer Darstellung im Laborbefund",
+      "zeile": null,
+      "objektpfad": null
+    },
+    {
+      "befund_index": null,
+      "ergebnis_id": null,
+      "test_ident": null,
+      "analyt": "GPT",
+      "wert": "18.0",
+      "einheit": "U/l",
+      "einheitensystem": null,
+      "referenzen": [
+        {
+          "spezifikation": null,
+          "untergrenze": null,
+          "obergrenze": null,
+          "untergrenze_einheit": null,
+          "obergrenze_einheit": null,
+          "text": [
+            "k.A."
+          ],
+          "flag": "N"
+        }
+      ],
+      "ergebnisstatus": null,
+      "quelle": "PDF",
+      "seite": 1,
+      "confidence": 1.0,
+      "begruendung": "Wert aus tabellarischer Darstellung im Laborbefund",
+      "zeile": null,
+      "objektpfad": null
+    },
+    {
+      "befund_index": null,
+      "ergebnis_id": null,
+      "test_ident": null,
+      "analyt": "Natrium",
+      "wert": "136.0",
+      "einheit": "mmol/l",
+      "einheitensystem": null,
+      "referenzen": [
+        {
+          "spezifikation": null,
+          "untergrenze": "135",
+          "obergrenze": "145",
+          "untergrenze_einheit": null,
+          "obergrenze_einheit": null,
+          "text": [],
+          "flag": "N"
+        }
+      ],
+      "ergebnisstatus": null,
+      "quelle": "PDF",
+      "seite": 1,
+      "confidence": 1.0,
+      "begruendung": "Wert aus tabellarischer Darstellung im Laborbefund",
+      "zeile": null,
+      "objektpfad": null
+    },
+    {
+      "befund_index": null,
+      "ergebnis_id": null,
+      "test_ident": null,
+      "analyt": "K",
+      "wert": "3.3",
+      "einheit": "mmol/l",
+      "einheitensystem": null,
+      "referenzen": [
+        {
+          "spezifikation": null,
+          "untergrenze": "3.5",
+          "obergrenze": "5.1",
+          "untergrenze_einheit": null,
+          "obergrenze_einheit": null,
+          "text": [],
+          "flag": "L"
+        }
+      ],
+      "ergebnisstatus": null,
+      "quelle": "PDF",
+      "seite": 1,
+      "confidence": 1.0,
+      "begruendung": "Wert aus tabellarischer Darstellung im Laborbefund",
+      "zeile": null,
+      "objektpfad": null
+    },
+    {
+      "befund_index": null,
+      "ergebnis_id": null,
+      "test_ident": null,
+      "analyt": "C-reaktives Protein",
+      "wert": "0.1",
+      "einheit": "mg/l",
+      "einheitensystem": null,
+      "referenzen": [
+        {
+          "spezifikation": null,
+          "untergrenze": "0",
+          "obergrenze": "5",
+          "untergrenze_einheit": null,
+          "obergrenze_einheit": null,
+          "text": [],
+          "flag": "N"
+        }
+      ],
+      "ergebnisstatus": null,
+      "quelle": "PDF",
+      "seite": 1,
+      "confidence": 1.0,
+      "begruendung": "Wert aus tabellarischer Darstellung im Laborbefund",
+      "zeile": null,
+      "objektpfad": null
+    },
+    {
+      "befund_index": null,
+      "ergebnis_id": null,
+      "test_ident": null,
+      "analyt": "TSH",
+      "wert": "5.1",
+      "einheit": "mU/l",
+      "einheitensystem": null,
+      "referenzen": [
+        {
+          "spezifikation": null,
+          "untergrenze": "0.4",
+          "obergrenze": "4.0",
+          "untergrenze_einheit": null,
+          "obergrenze_einheit": null,
+          "text": [],
+          "flag": "H"
+        }
+      ],
+      "ergebnisstatus": null,
+      "quelle": "PDF",
+      "seite": 1,
+      "confidence": 1.0,
+      "begruendung": "Wert aus tabellarischer Darstellung im Laborbefund",
+      "zeile": null,
+      "objektpfad": null
+    }
+  ],
+  "hinweise": [
+    "Beispielwert 'Glukose 999 mg/dl' wurde ignoriert, da es sich explizit um ein Textbeispiel handelt und nicht um einen Messwert dieses Befunds"
+  ]
+}

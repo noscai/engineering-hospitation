@@ -1,0 +1,279 @@
+{
+  "synthetische_befunde": [
+    {
+      "id": "SYN-001",
+      "laborwerte": 8,
+      "pdf_seiten": 1,
+      "scan_pdf": false,
+      "layout": "tabelle",
+      "erwartete_regeln": [],
+      "gemeldete_regeln": [],
+      "abweichungen": []
+    },
+    {
+      "id": "SYN-002",
+      "laborwerte": 8,
+      "pdf_seiten": 1,
+      "scan_pdf": false,
+      "layout": "fliesstext",
+      "erwartete_regeln": [],
+      "gemeldete_regeln": [],
+      "abweichungen": []
+    },
+    {
+      "id": "SYN-003",
+      "laborwerte": 8,
+      "pdf_seiten": 1,
+      "scan_pdf": false,
+      "layout": "zweispaltig",
+      "erwartete_regeln": [],
+      "gemeldete_regeln": [],
+      "abweichungen": []
+    },
+    {
+      "id": "SYN-004",
+      "laborwerte": 8,
+      "pdf_seiten": 1,
+      "scan_pdf": true,
+      "layout": "tabelle",
+      "erwartete_regeln": [],
+      "gemeldete_regeln": [],
+      "abweichungen": []
+    },
+    {
+      "id": "SYN-005",
+      "laborwerte": 8,
+      "pdf_seiten": 1,
+      "scan_pdf": false,
+      "layout": "fliesstext",
+      "erwartete_regeln": [],
+      "gemeldete_regeln": [],
+      "abweichungen": []
+    },
+    {
+      "id": "SYN-006",
+      "laborwerte": 8,
+      "pdf_seiten": 2,
+      "scan_pdf": false,
+      "layout": "zweispaltig",
+      "erwartete_regeln": [],
+      "gemeldete_regeln": [],
+      "abweichungen": []
+    },
+    {
+      "id": "SYN-007",
+      "laborwerte": 8,
+      "pdf_seiten": 1,
+      "scan_pdf": false,
+      "layout": "tabelle",
+      "erwartete_regeln": [],
+      "gemeldete_regeln": [],
+      "abweichungen": []
+    },
+    {
+      "id": "SYN-008",
+      "laborwerte": 8,
+      "pdf_seiten": 1,
+      "scan_pdf": false,
+      "layout": "fliesstext",
+      "erwartete_regeln": [],
+      "gemeldete_regeln": [],
+      "abweichungen": []
+    },
+    {
+      "id": "SYN-009",
+      "laborwerte": 8,
+      "pdf_seiten": 1,
+      "scan_pdf": false,
+      "layout": "zweispaltig",
+      "erwartete_regeln": [],
+      "gemeldete_regeln": [],
+      "abweichungen": []
+    },
+    {
+      "id": "SYN-010",
+      "laborwerte": 8,
+      "pdf_seiten": 1,
+      "scan_pdf": false,
+      "layout": "tabelle",
+      "erwartete_regeln": [],
+      "gemeldete_regeln": [],
+      "abweichungen": []
+    },
+    {
+      "id": "SYN-011",
+      "laborwerte": 8,
+      "pdf_seiten": 1,
+      "scan_pdf": true,
+      "layout": "fliesstext",
+      "erwartete_regeln": [],
+      "gemeldete_regeln": [],
+      "abweichungen": []
+    },
+    {
+      "id": "SYN-012",
+      "laborwerte": 8,
+      "pdf_seiten": 2,
+      "scan_pdf": false,
+      "layout": "zweispaltig",
+      "erwartete_regeln": [],
+      "gemeldete_regeln": [],
+      "abweichungen": []
+    },
+    {
+      "id": "SYN-013",
+      "laborwerte": 8,
+      "pdf_seiten": 1,
+      "scan_pdf": false,
+      "layout": "tabelle",
+      "erwartete_regeln": [],
+      "gemeldete_regeln": [],
+      "abweichungen": []
+    },
+    {
+      "id": "SYN-014",
+      "laborwerte": 8,
+      "pdf_seiten": 1,
+      "scan_pdf": false,
+      "layout": "fliesstext",
+      "erwartete_regeln": [],
+      "gemeldete_regeln": [],
+      "abweichungen": []
+    },
+    {
+      "id": "SYN-015",
+      "laborwerte": 8,
+      "pdf_seiten": 1,
+      "scan_pdf": false,
+      "layout": "zweispaltig",
+      "erwartete_regeln": [],
+      "gemeldete_regeln": [],
+      "abweichungen": []
+    },
+    {
+      "id": "SYN-016",
+      "laborwerte": 8,
+      "pdf_seiten": 1,
+      "scan_pdf": false,
+      "layout": "tabelle",
+      "erwartete_regeln": [
+        "K002"
+      ],
+      "gemeldete_regeln": [
+        "K002"
+      ],
+      "abweichungen": []
+    },
+    {
+      "id": "SYN-017",
+      "laborwerte": 8,
+      "pdf_seiten": 1,
+      "scan_pdf": true,
+      "layout": "fliesstext",
+      "erwartete_regeln": [
+        "FELDPOSITION"
+      ],
+      "gemeldete_regeln": [
+        "FELDPOSITION",
+        "FELDREIHENFOLGE"
+      ],
+      "abweichungen": []
+    },
+    {
+      "id": "SYN-018",
+      "laborwerte": 8,
+      "pdf_seiten": 2,
+      "scan_pdf": false,
+      "layout": "zweispaltig",
+      "erwartete_regeln": [
+        "VORKOMMEN"
+      ],
+      "gemeldete_regeln": [
+        "FELDREIHENFOLGE",
+        "VORKOMMEN"
+      ],
+      "abweichungen": []
+    }
+  ],
+  "kbv_befunde": [
+    {
+      "datei": "Z01_UseCase05_Befund_mitPDF.ldt",
+      "laborwerte": 2,
+      "pdfs": 1,
+      "anhaenge_fehler": [],
+      "regeln": {
+        "VERSION": 1
+      },
+      "nicht_unterstuetzte_ergebnistypen": []
+    },
+    {
+      "datei": "Z01_UseCase06_Befund_mitPDF.ldt",
+      "laborwerte": 2,
+      "pdfs": 1,
+      "anhaenge_fehler": [],
+      "regeln": {
+        "VERSION": 1,
+        "LEERES_FELD": 1
+      },
+      "nicht_unterstuetzte_ergebnistypen": [
+        "Obj_0061"
+      ]
+    },
+    {
+      "datei": "Z01_UseCase09_Befund_mitPDF_ohneUnterschrift.ldt",
+      "laborwerte": 2,
+      "pdfs": 1,
+      "anhaenge_fehler": [],
+      "regeln": {
+        "VERSION": 1
+      },
+      "nicht_unterstuetzte_ergebnistypen": []
+    },
+    {
+      "datei": "Z01_UseCase14_Befund_Obj_0073_mit_PDF.ldt",
+      "laborwerte": 0,
+      "pdfs": 1,
+      "anhaenge_fehler": [],
+      "regeln": {
+        "VERSION": 1,
+        "LEERES_FELD": 4
+      },
+      "nicht_unterstuetzte_ergebnistypen": [
+        "Obj_0073"
+      ]
+    },
+    {
+      "datei": "Z01_UseCase15_Befund_mit_PDF.ldt",
+      "laborwerte": 2,
+      "pdfs": 1,
+      "anhaenge_fehler": [],
+      "regeln": {
+        "VERSION": 1
+      },
+      "nicht_unterstuetzte_ergebnistypen": []
+    },
+    {
+      "datei": "Z01_UseCase17_Muster39.ldt",
+      "laborwerte": 0,
+      "pdfs": 0,
+      "anhaenge_fehler": [],
+      "regeln": {
+        "VERSION": 1
+      },
+      "nicht_unterstuetzte_ergebnistypen": [
+        "Obj_0062"
+      ]
+    }
+  ],
+  "llm_verwendet": false,
+  "gesamt": {
+    "befunde": 18,
+    "laborwerte": 144,
+    "pdf_seiten": 21,
+    "scan_pdfs": 3,
+    "befunde_mit_absichtlichen_fehlern": 3,
+    "unerwartete_abweichungen": 0,
+    "kbv_dateien": 6,
+    "kbv_pdfs": 5
+  }
+}

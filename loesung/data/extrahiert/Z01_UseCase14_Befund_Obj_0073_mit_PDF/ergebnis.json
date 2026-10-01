@@ -1,0 +1,82 @@
+{
+  "versionen": [
+    "LDT3.2.19"
+  ],
+  "laborwerte": [],
+  "anhaenge": [
+    {
+      "nummer": 1,
+      "befund_index": 1,
+      "zeile": 318,
+      "format": "PDF",
+      "datei": "anhang_001.pdf",
+      "fehler": null,
+      "seiten": 2,
+      "sha256": "a2888ec6646c644fc3a5d30266fbde8e16061380213461bab9f6c7efa56216aa",
+      "bytes": 67342
+    }
+  ],
+  "validierung": {
+    "meldungen": [
+      {
+        "zeilennummer": 1,
+        "objektpfad": "Dokument",
+        "feldkennung": "0001",
+        "regel": "VERSION",
+        "beschreibung": "Deklarierte Version fehlt oder weicht von LDT3.2.15 ab; Regeln nur vergleichend angewendet.",
+        "schwere": "Prüfhinweis"
+      },
+      {
+        "zeilennummer": 239,
+        "objektpfad": "8205@65/Obj_0035@202/Obj_0073@204/Obj_0068@236",
+        "feldkennung": "3564",
+        "regel": "LEERES_FELD",
+        "beschreibung": "Leerer Feldinhalt; eine zulässige Ausnahme ist nicht implementiert (S. 25).",
+        "schwere": "Prüfhinweis"
+      },
+      {
+        "zeilennummer": 246,
+        "objektpfad": "8205@65/Obj_0035@202/Obj_0073@204/Obj_0068@236",
+        "feldkennung": "3564",
+        "regel": "LEERES_FELD",
+        "beschreibung": "Leerer Feldinhalt; eine zulässige Ausnahme ist nicht implementiert (S. 25).",
+        "schwere": "Prüfhinweis"
+      },
+      {
+        "zeilennummer": 263,
+        "objektpfad": "8205@65/Obj_0035@202/Obj_0073@204/Obj_0068@256",
+        "feldkennung": "3564",
+        "regel": "LEERES_FELD",
+        "beschreibung": "Leerer Feldinhalt; eine zulässige Ausnahme ist nicht implementiert (S. 25).",
+        "schwere": "Prüfhinweis"
+      },
+      {
+        "zeilennummer": 272,
+        "objektpfad": "8205@65/Obj_0035@202/Obj_0073@204/Obj_0068@256",
+        "feldkennung": "3564",
+        "regel": "LEERES_FELD",
+        "beschreibung": "Leerer Feldinhalt; eine zulässige Ausnahme ist nicht implementiert (S. 25).",
+        "schwere": "Prüfhinweis"
+      }
+    ],
+    "ungepruefte_objekttypen": [
+      "Obj_0007",
+      "Obj_0014",
+      "Obj_0026",
+      "Obj_0031",
+      "Obj_0058",
+      "Obj_0069",
+      "Obj_0073"
+    ],
+    "regelversion": "LDT3.2.15",
+    "vollstaendig": false
+  },
+  "hinweise": [
+    {
+      "zeile": 204,
+      "code": "ERGEBNISTYP_NICHT_UNTERSTUETZT",
+      "objekt": "Obj_0073"
+    }
+  ],
+  "review_erforderlich": true
+}

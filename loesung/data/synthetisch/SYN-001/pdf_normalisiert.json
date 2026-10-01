@@ -1,0 +1,120 @@
+{
+  "normalisierte_laborwerte": [
+    {
+      "original_analyt": "Kreatinin",
+      "original_wert": "127.2",
+      "original_einheit": "µmol/l",
+      "analyt_kanonisch": "Kreatinin",
+      "loinc": "2160-0",
+      "loinc_name": "Creatinine [Mass/volume] in Serum or Plasma",
+      "ziel_einheit": "mg/dl",
+      "wert_normalisiert": "1.439",
+      "comparator": null,
+      "status": "ok",
+      "methode": "deterministisch",
+      "hinweise": [
+        "Einheit von µmol/l nach mg/dl umgerechnet."
+      ]
+    },
+    {
+      "original_analyt": "Glucose",
+      "original_wert": "85.0",
+      "original_einheit": "mg/dl",
+      "analyt_kanonisch": "Glukose",
+      "loinc": "2345-7",
+      "loinc_name": "Glucose [Mass/volume] in Serum or Plasma",
+      "ziel_einheit": "mg/dl",
+      "wert_normalisiert": "85",
+      "comparator": null,
+      "status": "ok",
+      "methode": "deterministisch",
+      "hinweise": []
+    },
+    {
+      "original_analyt": "Hämoglobin A1c",
+      "original_wert": "16.2",
+      "original_einheit": "mmol/mol",
+      "analyt_kanonisch": "HbA1c",
+      "loinc": "4548-4",
+      "loinc_name": "Hemoglobin A1c/Hemoglobin.total in Blood",
+      "ziel_einheit": "%",
+      "wert_normalisiert": "3.631",
+      "comparator": null,
+      "status": "ok",
+      "methode": "deterministisch",
+      "hinweise": [
+        "Einheit von mmol/mol nach % umgerechnet."
+      ]
+    },
+    {
+      "original_analyt": "GPT",
+      "original_wert": "22.0",
+      "original_einheit": "U/l",
+      "analyt_kanonisch": "ALT",
+      "loinc": "1742-6",
+      "loinc_name": "Alanine aminotransferase [Enzymatic activity/volume] in Serum or Plasma",
+      "ziel_einheit": "U/l",
+      "wert_normalisiert": "22",
+      "comparator": null,
+      "status": "ok",
+      "methode": "deterministisch",
+      "hinweise": []
+    },
+    {
+      "original_analyt": "Natrium",
+      "original_wert": "135.0",
+      "original_einheit": "mmol/l",
+      "analyt_kanonisch": "Natrium",
+      "loinc": "2951-2",
+      "loinc_name": "Sodium [Moles/volume] in Serum or Plasma",
+      "ziel_einheit": "mmol/l",
+      "wert_normalisiert": "135",
+      "comparator": null,
+      "status": "ok",
+      "methode": "deterministisch",
+      "hinweise": []
+    },
+    {
+      "original_analyt": "K",
+      "original_wert": "5.3",
+      "original_einheit": "mmol/l",
+      "analyt_kanonisch": "Kalium",
+      "loinc": "2823-3",
+      "loinc_name": "Potassium [Moles/volume] in Serum or Plasma",
+      "ziel_einheit": "mmol/l",
+      "wert_normalisiert": "5.3",
+      "comparator": null,
+      "status": "ok",
+      "methode": "deterministisch",
+      "hinweise": []
+    },
+    {
+      "original_analyt": "C-reaktives Protein",
+      "original_wert": "4.0",
+      "original_einheit": "mg/l",
+      "analyt_kanonisch": "CRP",
+      "loinc": "1988-5",
+      "loinc_name": "C reactive protein [Mass/volume] in Serum or Plasma",
+      "ziel_einheit": "mg/l",
+      "wert_normalisiert": "4",
+      "comparator": null,
+      "status": "ok",
+      "methode": "deterministisch",
+      "hinweise": []
+    },
+    {
+      "original_analyt": "TSH",
+      "original_wert": "1.5",
+      "original_einheit": "mU/l",
+      "analyt_kanonisch": "TSH",
+      "loinc": "3016-3",
+      "loinc_name": "Thyrotropin [Units/volume] in Serum or Plasma",
+      "ziel_einheit": "mU/l",
+      "wert_normalisiert": "1.5",
+      "comparator": null,
+      "status": "ok",
+      "methode": "deterministisch",
+      "hinweise": []
+    }
+  ]
+}
